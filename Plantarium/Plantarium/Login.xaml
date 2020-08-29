@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="LightGreen"
+             x:Class="Plantarium.Login">
+    <ContentPage.Content>
+        <StackLayout>
+        <StackLayout Padding="0,30" x:Name="LogoStacks" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" >
+            <Image Source="PlantariumLogo"></Image>
+            <Label Text="Your forum for everything about Plant care" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"></Label>
+        </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" Padding="40,0,40,20">
+            <Label TextColor="Black" x:Name="Lbl_Username" Text="Username"></Label>
+            <Entry x:Name="EntryUsername" Placeholder="Username"></Entry>
+            <Label x:Name="Lbl_Password" TextColor="Black" Text="Password"></Label>
+            <Entry x:Name="EntryPassword" Placeholder="Password" IsPassword="True"></Entry>
+            <Button x:Name="LoginButton" Text="Login" Clicked="LoginButton_Clicked"></Button>
+            <Button x:Name="SignUpButton" Text="Sign Up" Clicked="SignUpButton_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
