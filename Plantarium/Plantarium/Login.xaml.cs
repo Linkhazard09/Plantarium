@@ -17,30 +17,31 @@ namespace Plantarium
         public Login()
         {
             InitializeComponent();
-            
+            this.Title = "Plantarium";
         
             
           
         }
 
-        private void LoginButton_Clicked(object sender, EventArgs e)
+        private async void LoginButton_Clicked(object sender, EventArgs e)
         {
             string Username = EntryUsername.Text;
             string Password = EntryPassword.Text;
             
             if (Ws.AccountAuthenticate(Username, Password) == true)
             {
-               DisplayAlert("Correct", "Account Authenticated", "OK");
+                await Navigation.PushAsync(new MainPage());
             }
            else
-                DisplayAlert("Incorrect", "Account does not exist", "OK");
+              await DisplayAlert("Incorrect", "Account does not exist", "OK");
 
 
         }
 
-        private void SignUpButton_Clicked(object sender, EventArgs e)
+        private async void SignUpButton_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new SignUp());
+           
         }
     }
 }

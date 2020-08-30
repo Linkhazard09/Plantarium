@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plantarium.SignUp"
+            
+             >
+    <ContentPage.Content>
+        
+            <ScrollView>
+            <StackLayout Padding="20,0,20,10">
+                <Label FontSize="20" TextColor="Black">Personal Details</Label>
+
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="LastName_Entry" Placeholder="Last Name"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="GivenName_Entry" Placeholder="Given Name"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke"  x:Name="MiddleName_Entry" Placeholder="Middle Name"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="Suffx_Entry" Placeholder="Suffix" HeightRequest="50" WidthRequest="15" ></Entry>
+                </Frame>
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="EmailAddress_Entry" Placeholder="Email Address" HeightRequest="50" WidthRequest="30"></Entry>
+                </Frame>
+                <Label FontSize="20"  TextColor="Black">Account Details</Label>
+                <Frame CornerRadius="10"  IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="Username_Entry" Placeholder="Username" HeightRequest="50" WidthRequest="30"></Entry>
+                </Frame>
+                <Frame CornerRadius="10" IsClippedToBounds="True" HasShadow="True" Padding="5" BorderColor="Black">
+                <Entry BackgroundColor="WhiteSmoke" x:Name="Password_Entry" Placeholder="Password" IsPassword="True" HeightRequest="50" WidthRequest="30"></Entry>
+                </Frame>
+                <Button x:Name="Submit_Button" Clicked="Submit_Button_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="WhiteSmoke" WidthRequest="180" HeightRequest="60"  Text="Submit" HorizontalOptions="Center" Margin="0,10" ></Button>
+
+
+            </StackLayout>
+
+        </ScrollView>
+
+
+
+
+
+       
+    </ContentPage.Content>
+</ContentPage>
