@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plantarium.MainPageMaster"
+             Title="Master">
+  <StackLayout>
+    <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+      <ListView.Header>
+        <Grid BackgroundColor="LightGreen">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+          </Grid.RowDefinitions>
+          <Label 
+              Grid.Column="1"
+              Grid.Row="2"
+              Text="Welcome to Plantarium! Please use the buttons bellow for navigation!"
+              TextColor="Black"
+              FontSize="25"
+              Style="{DynamicResource SubtitleStyle}"/>
+        </Grid>
+      </ListView.Header>
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+                        <StackLayout  Padding="20,10,0,10" Spacing="20" Orientation="Horizontal" VerticalOptions="FillAndExpand">
+
+                  <Image VerticalOptions="Center" 
+                   Source="{Binding Logo}" WidthRequest="40" HeightRequest="40"/>
+                            <Label VerticalOptions="Center" 
+                    VerticalTextAlignment="Center" 
+                    Text="{Binding Title}" 
+                    FontSize="24"/>
+                  
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>
