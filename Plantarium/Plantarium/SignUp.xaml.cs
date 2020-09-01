@@ -17,6 +17,7 @@ namespace Plantarium
         {
             InitializeComponent();
             this.Title = "New User Form";
+           
         }
 
         private async void Submit_Button_Clicked(object sender, EventArgs e)

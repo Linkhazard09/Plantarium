@@ -15,6 +15,7 @@ namespace Plantarium
         public MainPageDetail()
         {
             InitializeComponent();
+           
         }
     }
 }

@@ -5,7 +5,10 @@
     <Application.Resources>
         <Style TargetType="NavigationPage">
             <Setter Property="BarTextColor" Value="White"/>
+            <Setter Property="BarBackgroundColor" Value="Green"/>
         </Style>
+        
+        
 
     </Application.Resources>
 </Application>

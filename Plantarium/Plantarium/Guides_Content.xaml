@@ -1,12 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plantarium.Guides_Content">
+             x:Class="Plantarium.Guides_Content"
+             Title="Guides Content"
+             
+             >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+           
+                <Label x:Name="Guide_NameLabel" FontSize="25" TextColor="Black" FontAttributes="Bold" HorizontalOptions="Start" Padding="0,35" ></Label>
+           
+                 <Label  x:Name="Plant_NameLabel" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="Start" Padding="0,10"></Label>
+                <Label x:Name="Guide_ContentLabel" HorizontalOptions="Start" VerticalOptions="Center" Padding="0,10" ></Label>
+              
+
+                <WebView x:Name="Guide_Video" VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="FillAndExpand"  WidthRequest="50" HeightRequest="240"></WebView>
+                
+                
+                <Label HorizontalOptions="Start" VerticalOptions="End" FontSize="Small">To download the Guides in pdf form please proceed to this Gdrive link: https://drive.google.com/drive/folders/1ZLya8fKIK7dRa7Y9pjCy9RUpUqC4nSyM</Label>
+
+                <Button x:Name="Feedback_Button" CornerRadius="10" HorizontalOptions="Center" VerticalOptions="End" Padding="0,15" Text="View Feedback" Clicked="Feedback_Button_Clicked"></Button>
+           
+
+
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

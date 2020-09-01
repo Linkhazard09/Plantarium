@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNetService;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,51 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Guides : ContentPage
     {
+       
+
+        public IList<PlantGuides> PlantGuide { get; private set; }
         public Guides()
         {
+            List<string> GN = new List<string>();
+            List<string> PN = new List<string>();
+            string[] essex; ;
+
             InitializeComponent();
+            int x = 0;
+            Service1Client srvc = new Service1Client();
+            GN = srvc.GuidesGet(out essex).ToList();
+            PN = essex.ToList();
+
+            PlantGuide = new List<PlantGuides>();
+            foreach (string s in GN)
+            {
+                PlantGuide.Add(new PlantGuides { Guide_Name = GN[x], Plant_Name = PN[x] }); ;
+                x++;
+            }
+            BindingContext = this;
+
+        }
+
+        async void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            PlantGuides tappedItem = e.Item as PlantGuides;
+            string x = tappedItem.Guide_Name;
+            string y = tappedItem.Plant_Name;
+
+            await Navigation.PushAsync(new Guides_Content(x,y));
+
+        }
+
+        public class PlantGuides
+        {
+            public string Guide_Name { get; set; }
+            public string Plant_Name { get; set; }
+            
+
+            public override string ToString()
+            {
+                return Guide_Name;
+            }
         }
     }
 }

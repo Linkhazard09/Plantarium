@@ -52,6 +52,20 @@ namespace DotNetService
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/UpdateSpamCounter", ReplyAction="http://tempuri.org/IService1/UpdateSpamCounterResponse")]
         System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGet", ReplyAction="http://tempuri.org/IService1/GuidesGetResponse")]
+        DotNetService.GuidesGetResponse GuidesGet(DotNetService.GuidesGetRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGet", ReplyAction="http://tempuri.org/IService1/GuidesGetResponse")]
+        System.Threading.Tasks.Task<DotNetService.GuidesGetResponse> GuidesGetAsync(DotNetService.GuidesGetRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGetContent", ReplyAction="http://tempuri.org/IService1/GuidesGetContentResponse")]
+        DotNetService.GuidesGetContentResponse GuidesGetContent(DotNetService.GuidesGetContentRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGetContent", ReplyAction="http://tempuri.org/IService1/GuidesGetContentResponse")]
+        System.Threading.Tasks.Task<DotNetService.GuidesGetContentResponse> GuidesGetContentAsync(DotNetService.GuidesGetContentRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -105,6 +119,86 @@ namespace DotNetService
             this.Middle_Name = Middle_Name;
             this.Suffix = Suffix;
             this.Email_Address = Email_Address;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuidesGet", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuidesGetRequest
+    {
+        
+        public GuidesGetRequest()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuidesGetResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuidesGetResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] Guide_Name;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string[] Plant_Name;
+        
+        public GuidesGetResponse()
+        {
+        }
+        
+        public GuidesGetResponse(string[] Guide_Name, string[] Plant_Name)
+        {
+            this.Guide_Name = Guide_Name;
+            this.Plant_Name = Plant_Name;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuidesGetContent", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuidesGetContentRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string GName;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string PName;
+        
+        public GuidesGetContentRequest()
+        {
+        }
+        
+        public GuidesGetContentRequest(string GName, string PName)
+        {
+            this.GName = GName;
+            this.PName = PName;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuidesGetContentResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuidesGetContentResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string Guide_Content;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string Video_URL;
+        
+        public GuidesGetContentResponse()
+        {
+        }
+        
+        public GuidesGetContentResponse(string Guide_Content, string Video_URL)
+        {
+            this.Guide_Content = Guide_Content;
+            this.Video_URL = Video_URL;
         }
     }
     
@@ -229,6 +323,46 @@ namespace DotNetService
         public System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username)
         {
             return base.Channel.UpdateSpamCounterAsync(Username);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GuidesGetResponse DotNetService.IService1.GuidesGet(DotNetService.GuidesGetRequest request)
+        {
+            return base.Channel.GuidesGet(request);
+        }
+        
+        public string[] GuidesGet(out string[] Plant_Name)
+        {
+            DotNetService.GuidesGetRequest inValue = new DotNetService.GuidesGetRequest();
+            DotNetService.GuidesGetResponse retVal = ((DotNetService.IService1)(this)).GuidesGet(inValue);
+            Plant_Name = retVal.Plant_Name;
+            return retVal.Guide_Name;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GuidesGetResponse> GuidesGetAsync(DotNetService.GuidesGetRequest request)
+        {
+            return base.Channel.GuidesGetAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GuidesGetContentResponse DotNetService.IService1.GuidesGetContent(DotNetService.GuidesGetContentRequest request)
+        {
+            return base.Channel.GuidesGetContent(request);
+        }
+        
+        public string GuidesGetContent(string GName, string PName, out string Video_URL)
+        {
+            DotNetService.GuidesGetContentRequest inValue = new DotNetService.GuidesGetContentRequest();
+            inValue.GName = GName;
+            inValue.PName = PName;
+            DotNetService.GuidesGetContentResponse retVal = ((DotNetService.IService1)(this)).GuidesGetContent(inValue);
+            Video_URL = retVal.Video_URL;
+            return retVal.Guide_Content;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GuidesGetContentResponse> GuidesGetContentAsync(DotNetService.GuidesGetContentRequest request)
+        {
+            return base.Channel.GuidesGetContentAsync(request);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

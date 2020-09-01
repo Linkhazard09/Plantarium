@@ -18,9 +18,9 @@ namespace Plantarium
         {
             InitializeComponent();
             this.Title = "Plantarium";
-        
-            
           
+
+
         }
 
         private async void LoginButton_Clicked(object sender, EventArgs e)

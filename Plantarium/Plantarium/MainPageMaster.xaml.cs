@@ -23,6 +23,7 @@ namespace Plantarium
 
             BindingContext = new MainPageMasterViewModel();
             ListView = MenuItemsListView;
+           
         }
 
         class MainPageMasterViewModel : INotifyPropertyChanged

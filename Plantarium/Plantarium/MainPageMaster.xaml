@@ -21,13 +21,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="20"/>
           </Grid.RowDefinitions>
-          <Label 
-              Grid.Column="1"
-              Grid.Row="2"
-              Text="Welcome to Plantarium! Please use the buttons bellow for navigation!"
-              TextColor="Black"
-              FontSize="25"
-              Style="{DynamicResource SubtitleStyle}"/>
+                    <Image VerticalOptions="Center"  
+                   Source="PlantariumLogo" WidthRequest="70" HeightRequest="70"
+                          Grid.Column="1"
+              Grid.Row="2"/>
+                 
         </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
