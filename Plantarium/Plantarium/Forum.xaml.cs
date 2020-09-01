@@ -12,7 +12,7 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Forum : ContentPage
     {
-        public Forum()
+        public Forum(string Username)
         {
             InitializeComponent();
         }

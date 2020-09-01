@@ -30,7 +30,7 @@ namespace Plantarium
             
             if (Ws.AccountAuthenticate(Username, Password) == true)
             {
-                await Navigation.PushAsync(new MainPage());
+                await Navigation.PushAsync(new MainPage(Username));
             }
            else
               await DisplayAlert("Incorrect", "Account does not exist", "OK");

@@ -12,11 +12,13 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : MasterDetailPage
     {
-        public MainPage()
+        public string Username;
+        public MainPage(string Username)
         {
             InitializeComponent();
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
-            
+            this.Username = Username;
+
 
         }
 
@@ -32,10 +34,10 @@ namespace Plantarium
                     await Navigation.PushAsync(new Login());
                     break;
                 case "Forums":
-                    await Navigation.PushAsync(new Forum());
+                    await Navigation.PushAsync(new Forum(Username));
                     break;
                 case "Guides":
-                    await Navigation.PushAsync(new Guides());
+                    await Navigation.PushAsync(new Guides(Username));
                     break;
 
 

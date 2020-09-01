@@ -13,11 +13,12 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Guides : ContentPage
     {
-       
 
+        public string Username;
         public IList<PlantGuides> PlantGuide { get; private set; }
-        public Guides()
+        public Guides(string Username)
         {
+            this.Username = Username;
             List<string> GN = new List<string>();
             List<string> PN = new List<string>();
             string[] essex; ;
@@ -44,7 +45,7 @@ namespace Plantarium
             string x = tappedItem.Guide_Name;
             string y = tappedItem.Plant_Name;
 
-            await Navigation.PushAsync(new Guides_Content(x,y));
+            await Navigation.PushAsync(new Guides_Content(x,y, Username));
 
         }
 

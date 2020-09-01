@@ -13,9 +13,15 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Guides_Content : ContentPage
     {
-        public Guides_Content(string Guide_Name, string Plant_Name)
+        public string Username;
+        public string Guide_Name;
+        public string Plant_Name;
+        public Guides_Content(string Guide_Name, string Plant_Name, string Username)
         {
             IService1 Ws = new DotNetService.Service1Client();
+            this.Username = Username;
+            this.Guide_Name = Guide_Name;
+            this.Plant_Name = Plant_Name;
             InitializeComponent();
             string Guide_Content, Video_URL;
             Service1Client srvc = new Service1Client();
@@ -24,8 +30,6 @@ namespace Plantarium
             Guide_NameLabel.Text = Guide_Name;
             Plant_NameLabel.Text = Plant_Name;
             Guide_ContentLabel.Text = Guide_Content;
-           
-
             Guide_Video.Source = Video_URL;
            
 
@@ -39,7 +43,7 @@ namespace Plantarium
         private async void Feedback_Button_Clicked(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new Feedback());
+            await Navigation.PushAsync(new Feedback(Username,Plant_Name,Guide_Name));
 
 
 

@@ -66,6 +66,13 @@ namespace DotNetService
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGetContent", ReplyAction="http://tempuri.org/IService1/GuidesGetContentResponse")]
         System.Threading.Tasks.Task<DotNetService.GuidesGetContentResponse> GuidesGetContentAsync(DotNetService.GuidesGetContentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetFeedbacks", ReplyAction="http://tempuri.org/IService1/GetFeedbacksResponse")]
+        DotNetService.GetFeedbacksResponse GetFeedbacks(DotNetService.GetFeedbacksRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetFeedbacks", ReplyAction="http://tempuri.org/IService1/GetFeedbacksResponse")]
+        System.Threading.Tasks.Task<DotNetService.GetFeedbacksResponse> GetFeedbacksAsync(DotNetService.GetFeedbacksRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -199,6 +206,64 @@ namespace DotNetService
         {
             this.Guide_Content = Guide_Content;
             this.Video_URL = Video_URL;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetFeedbacks", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetFeedbacksRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string Guide_Name;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string Plant_Name;
+        
+        public GetFeedbacksRequest()
+        {
+        }
+        
+        public GetFeedbacksRequest(string Guide_Name, string Plant_Name)
+        {
+            this.Guide_Name = Guide_Name;
+            this.Plant_Name = Plant_Name;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetFeedbacksResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetFeedbacksResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] Username;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string[] Date;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public string[] Time;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public string[] Feedback_Content;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        public string[] Rating;
+        
+        public GetFeedbacksResponse()
+        {
+        }
+        
+        public GetFeedbacksResponse(string[] Username, string[] Date, string[] Time, string[] Feedback_Content, string[] Rating)
+        {
+            this.Username = Username;
+            this.Date = Date;
+            this.Time = Time;
+            this.Feedback_Content = Feedback_Content;
+            this.Rating = Rating;
         }
     }
     
@@ -363,6 +428,30 @@ namespace DotNetService
         public System.Threading.Tasks.Task<DotNetService.GuidesGetContentResponse> GuidesGetContentAsync(DotNetService.GuidesGetContentRequest request)
         {
             return base.Channel.GuidesGetContentAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GetFeedbacksResponse DotNetService.IService1.GetFeedbacks(DotNetService.GetFeedbacksRequest request)
+        {
+            return base.Channel.GetFeedbacks(request);
+        }
+        
+        public string[] GetFeedbacks(string Guide_Name, string Plant_Name, out string[] Date, out string[] Time, out string[] Feedback_Content, out string[] Rating)
+        {
+            DotNetService.GetFeedbacksRequest inValue = new DotNetService.GetFeedbacksRequest();
+            inValue.Guide_Name = Guide_Name;
+            inValue.Plant_Name = Plant_Name;
+            DotNetService.GetFeedbacksResponse retVal = ((DotNetService.IService1)(this)).GetFeedbacks(inValue);
+            Date = retVal.Date;
+            Time = retVal.Time;
+            Feedback_Content = retVal.Feedback_Content;
+            Rating = retVal.Rating;
+            return retVal.Username;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GetFeedbacksResponse> GetFeedbacksAsync(DotNetService.GetFeedbacksRequest request)
+        {
+            return base.Channel.GetFeedbacksAsync(request);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
