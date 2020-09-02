@@ -45,15 +45,14 @@ namespace Plantarium
             {
 
                 string y = DE[x].Substring(0, 10);
-                AllFeedbacks.Add(new Feedbacks { Username = UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
+                AllFeedbacks.Add(new Feedbacks { Username = "u/" + UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
                     x--;
 
             }
 
             BindingContext = this;
 
-
-
+         
 
 
         }
@@ -77,12 +76,15 @@ namespace Plantarium
             }
         }
 
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddFeedbacks(Username,Guide_Name,Plant_Name));
 
 
 
 
+        }
 
-
-
+        
     }
 }

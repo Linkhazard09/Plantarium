@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plantarium.AddFeedbacks">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="5" CornerRadius="10" IsClippedToBounds="True" HasShadow="True" BorderColor="Black">
+                    <Editor x:Name="Editor_FeedbackContent" Placeholder="Enter Your Feedback Content Here!" AutoSize="TextChanges" IsSpellCheckEnabled="false"  IsTextPredictionEnabled="false" BackgroundColor="LightGreen">
+                        
+
+
+                    </Editor>
+                </Frame>
+                <Picker x:Name="Picker_Feedback" Title="Select a Rating!" VerticalOptions="Center" HorizontalOptions="Center">
+                 
+                </Picker>
+                <Button x:Name="SubmitButton" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Text="Submit Feedback!" CornerRadius="10" Clicked="SubmitButton_Clicked" BackgroundColor="Green" TextColor="WhiteSmoke"></Button>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

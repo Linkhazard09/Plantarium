@@ -73,6 +73,26 @@ namespace DotNetService
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetFeedbacks", ReplyAction="http://tempuri.org/IService1/GetFeedbacksResponse")]
         System.Threading.Tasks.Task<DotNetService.GetFeedbacksResponse> GetFeedbacksAsync(DotNetService.GetFeedbacksRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/FeedbackInsert", ReplyAction="http://tempuri.org/IService1/FeedbackInsertResponse")]
+        void FeedbackInsert(string Username, string Guide_Name, string Plant_Name, string Date, string Time, string Feedback_Content, int Rating);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/FeedbackInsert", ReplyAction="http://tempuri.org/IService1/FeedbackInsertResponse")]
+        System.Threading.Tasks.Task FeedbackInsertAsync(string Username, string Guide_Name, string Plant_Name, string Date, string Time, string Feedback_Content, int Rating);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuideGetByPlant", ReplyAction="http://tempuri.org/IService1/GuideGetByPlantResponse")]
+        DotNetService.GuideGetByPlantResponse GuideGetByPlant(DotNetService.GuideGetByPlantRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuideGetByPlant", ReplyAction="http://tempuri.org/IService1/GuideGetByPlantResponse")]
+        System.Threading.Tasks.Task<DotNetService.GuideGetByPlantResponse> GuideGetByPlantAsync(DotNetService.GuideGetByPlantRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumsAll", ReplyAction="http://tempuri.org/IService1/GetForumsAllResponse")]
+        DotNetService.GetForumsAllResponse GetForumsAll(DotNetService.GetForumsAllRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumsAll", ReplyAction="http://tempuri.org/IService1/GetForumsAllResponse")]
+        System.Threading.Tasks.Task<DotNetService.GetForumsAllResponse> GetForumsAllAsync(DotNetService.GetForumsAllRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -267,6 +287,90 @@ namespace DotNetService
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuideGetByPlant", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuideGetByPlantRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string Plant_Name;
+        
+        public GuideGetByPlantRequest()
+        {
+        }
+        
+        public GuideGetByPlantRequest(string Plant_Name)
+        {
+            this.Plant_Name = Plant_Name;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GuideGetByPlantResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GuideGetByPlantResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] Guide_Name;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string[] Plant_Names;
+        
+        public GuideGetByPlantResponse()
+        {
+        }
+        
+        public GuideGetByPlantResponse(string[] Guide_Name, string[] Plant_Names)
+        {
+            this.Guide_Name = Guide_Name;
+            this.Plant_Names = Plant_Names;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetForumsAll", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetForumsAllRequest
+    {
+        
+        public GetForumsAllRequest()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetForumsAllResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetForumsAllResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] Username;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string[] Date;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public string[] Headline;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public string[] Time;
+        
+        public GetForumsAllResponse()
+        {
+        }
+        
+        public GetForumsAllResponse(string[] Username, string[] Date, string[] Headline, string[] Time)
+        {
+            this.Username = Username;
+            this.Date = Date;
+            this.Headline = Headline;
+            this.Time = Time;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     public interface IService1Channel : DotNetService.IService1, System.ServiceModel.IClientChannel
     {
@@ -452,6 +556,57 @@ namespace DotNetService
         public System.Threading.Tasks.Task<DotNetService.GetFeedbacksResponse> GetFeedbacksAsync(DotNetService.GetFeedbacksRequest request)
         {
             return base.Channel.GetFeedbacksAsync(request);
+        }
+        
+        public void FeedbackInsert(string Username, string Guide_Name, string Plant_Name, string Date, string Time, string Feedback_Content, int Rating)
+        {
+            base.Channel.FeedbackInsert(Username, Guide_Name, Plant_Name, Date, Time, Feedback_Content, Rating);
+        }
+        
+        public System.Threading.Tasks.Task FeedbackInsertAsync(string Username, string Guide_Name, string Plant_Name, string Date, string Time, string Feedback_Content, int Rating)
+        {
+            return base.Channel.FeedbackInsertAsync(Username, Guide_Name, Plant_Name, Date, Time, Feedback_Content, Rating);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GuideGetByPlantResponse DotNetService.IService1.GuideGetByPlant(DotNetService.GuideGetByPlantRequest request)
+        {
+            return base.Channel.GuideGetByPlant(request);
+        }
+        
+        public string[] GuideGetByPlant(string Plant_Name, out string[] Plant_Names)
+        {
+            DotNetService.GuideGetByPlantRequest inValue = new DotNetService.GuideGetByPlantRequest();
+            inValue.Plant_Name = Plant_Name;
+            DotNetService.GuideGetByPlantResponse retVal = ((DotNetService.IService1)(this)).GuideGetByPlant(inValue);
+            Plant_Names = retVal.Plant_Names;
+            return retVal.Guide_Name;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GuideGetByPlantResponse> GuideGetByPlantAsync(DotNetService.GuideGetByPlantRequest request)
+        {
+            return base.Channel.GuideGetByPlantAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GetForumsAllResponse DotNetService.IService1.GetForumsAll(DotNetService.GetForumsAllRequest request)
+        {
+            return base.Channel.GetForumsAll(request);
+        }
+        
+        public string[] GetForumsAll(out string[] Date, out string[] Headline, out string[] Time)
+        {
+            DotNetService.GetForumsAllRequest inValue = new DotNetService.GetForumsAllRequest();
+            DotNetService.GetForumsAllResponse retVal = ((DotNetService.IService1)(this)).GetForumsAll(inValue);
+            Date = retVal.Date;
+            Headline = retVal.Headline;
+            Time = retVal.Time;
+            return retVal.Username;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GetForumsAllResponse> GetForumsAllAsync(DotNetService.GetForumsAllRequest request)
+        {
+            return base.Channel.GetForumsAllAsync(request);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

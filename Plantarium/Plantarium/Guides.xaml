@@ -9,7 +9,14 @@
         <StackLayout>
 
             <ListView x:Name="GuideListView" HasUnevenRows="True" ItemsSource="{Binding PlantGuide}" ItemTapped="OnListViewItemTapped" >
-                <ListView.ItemTemplate>
+                    <ListView.Header>
+                        <StackLayout Orientation="Horizontal">
+                            <Picker x:Name="PlantNamePicker" Title="Plant Type" WidthRequest="200" HorizontalOptions="Start" FontSize="15" ></Picker>
+                            <Button x:Name="FilterButton" Text="Filter" Clicked="FilterButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White" ></Button>
+                            <Button  x:Name="ResetButton" Text="Reset" Clicked="ResetButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White"></Button>
+                        </StackLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid>

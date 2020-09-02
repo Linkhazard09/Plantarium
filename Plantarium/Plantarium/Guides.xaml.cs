@@ -28,7 +28,7 @@ namespace Plantarium
             Service1Client srvc = new Service1Client();
             GN = srvc.GuidesGet(out essex).ToList();
             PN = essex.ToList();
-
+            PlantNamePicker.ItemsSource = PN;
             PlantGuide = new List<PlantGuides>();
             foreach (string s in GN)
             {
@@ -59,6 +59,52 @@ namespace Plantarium
             {
                 return Guide_Name;
             }
+        }
+
+        private void FilterButton_Clicked(object sender, EventArgs e)
+        {
+            List<string> GN = new List<string>();
+            List<string> PN = new List<string>();
+            string[] essex; ;
+
+            int x = 0;
+            Service1Client srvc = new Service1Client();
+            GN = srvc.GuideGetByPlant(PlantNamePicker.SelectedItem.ToString(), out essex).ToList();
+            PN = essex.ToList();
+            PlantGuide = new List<PlantGuides>();
+            foreach (string s in GN)
+            {
+                PlantGuide.Add(new PlantGuides { Guide_Name = GN[x], Plant_Name = PN[x] }); ;
+                x++;
+            }
+
+            BindingContext = this;
+            GuideListView.ItemsSource = PlantGuide;
+
+
+        }
+
+        private void ResetButton_Clicked(object sender, EventArgs e)
+        {
+            List<string> GN = new List<string>();
+            List<string> PN = new List<string>();
+            string[] essex;
+            int x = 0;
+            Service1Client srvc = new Service1Client();
+            GN = srvc.GuidesGet(out essex).ToList();
+            PN = essex.ToList();
+            PlantNamePicker.ItemsSource = PN;
+            PlantGuide = new List<PlantGuides>();
+            foreach (string s in GN)
+            {
+                PlantGuide.Add(new PlantGuides { Guide_Name = GN[x], Plant_Name = PN[x] }); ;
+                x++;
+            }
+            BindingContext = this;
+            GuideListView.ItemsSource = PlantGuide;
+
+
+
         }
     }
 }

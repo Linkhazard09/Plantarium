@@ -6,9 +6,11 @@
              >
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
-            <ListView x:Name="FeedbackListView" HasUnevenRows="True" ItemsSource="{Binding AllFeedbacks}">
-                <ListView.ItemTemplate>
+            <StackLayout>
+
+                <ListView x:Name="FeedbackListView" HasUnevenRows="True"   ItemsSource="{Binding AllFeedbacks}">
+                   
+                    <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid>
@@ -55,9 +57,15 @@
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                    <ListView.Footer>
+                        <StackLayout Orientation="Horizontal" >
+                            <Button x:Name="AddFeedbackButton"  HorizontalOptions="Center" Padding="20,0" VerticalOptions="End" Clicked="Button_Clicked" Text="Add Feedback" CornerRadius="10" BackgroundColor="Green" TextColor="WhiteSmoke" ></Button>
+                        </StackLayout>
+
+                    </ListView.Footer>
             </ListView>
-
-
+              
+        
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

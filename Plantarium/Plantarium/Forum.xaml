@@ -1,12 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plantarium.Forum">
+             x:Class="Plantarium.Forum"
+             Title="Forums"
+             >
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="0,0,10,0">
+                <ListView x:Name="ForumListview" ItemTapped="ForumListview_ItemTapped"  ItemsSource="{Binding GetForum}" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                       
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="1"
+                                            Grid.Row="1" 
+                                       Text="{Binding Headline}"
+                                       FontAttributes="Bold"  VerticalOptions="StartAndExpand" />
+
+                                    <Label 
+                                      Grid.Column="1"
+                                         Grid.Row="2" 
+                                       Text="{Binding Username}"
+                                      VerticalOptions="Center"/>
+
+                                    <Label 
+                                       Grid.Column="2"
+                                         Grid.Row="1" 
+                                       Text="{Binding Date}"
+                                       VerticalOptions="Start" HorizontalOptions="End" />
+
+                                 
+
+                                </Grid>
+
+
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
