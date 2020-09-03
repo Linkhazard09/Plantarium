@@ -13,7 +13,7 @@ namespace Plantarium
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Forum : ContentPage
     {
-        public string Username;
+        private string Username;
         public IList<Forums> GetForum { get; private set; }
         public Forum(string Username)
         {
@@ -51,10 +51,10 @@ namespace Plantarium
         {
 
             var Selected = e.Item as Forums;
-            string Username = Selected.Username;
+            string Poster = Selected.Username;
             string Headline = Selected.Headline;
 
-            await Navigation.PushAsync(new Forum_Content(Username,Headline));
+            await Navigation.PushAsync(new Forum_Content(Poster,Headline,Username));
 
 
 

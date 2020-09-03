@@ -100,6 +100,19 @@ namespace DotNetService
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumContent", ReplyAction="http://tempuri.org/IService1/GetForumContentResponse")]
         System.Threading.Tasks.Task<DotNetService.GetForumContentResponse> GetForumContentAsync(DotNetService.GetForumContentRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetComments", ReplyAction="http://tempuri.org/IService1/GetCommentsResponse")]
+        DotNetService.GetCommentsResponse GetComments(DotNetService.GetCommentsRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetComments", ReplyAction="http://tempuri.org/IService1/GetCommentsResponse")]
+        System.Threading.Tasks.Task<DotNetService.GetCommentsResponse> GetCommentsAsync(DotNetService.GetCommentsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertComment", ReplyAction="http://tempuri.org/IService1/InsertCommentResponse")]
+        void InsertComment(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertComment", ReplyAction="http://tempuri.org/IService1/InsertCommentResponse")]
+        System.Threading.Tasks.Task InsertCommentAsync(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -428,6 +441,60 @@ namespace DotNetService
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetComments", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetCommentsRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string Headline;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string Poster;
+        
+        public GetCommentsRequest()
+        {
+        }
+        
+        public GetCommentsRequest(string Headline, string Poster)
+        {
+            this.Headline = Headline;
+            this.Poster = Poster;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetCommentsResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetCommentsResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string[] CommentPoster;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string[] Date;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public string[] Time;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public string[] Content;
+        
+        public GetCommentsResponse()
+        {
+        }
+        
+        public GetCommentsResponse(string[] CommentPoster, string[] Date, string[] Time, string[] Content)
+        {
+            this.CommentPoster = CommentPoster;
+            this.Date = Date;
+            this.Time = Time;
+            this.Content = Content;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     public interface IService1Channel : DotNetService.IService1, System.ServiceModel.IClientChannel
     {
@@ -686,6 +753,39 @@ namespace DotNetService
         public System.Threading.Tasks.Task<DotNetService.GetForumContentResponse> GetForumContentAsync(DotNetService.GetForumContentRequest request)
         {
             return base.Channel.GetForumContentAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GetCommentsResponse DotNetService.IService1.GetComments(DotNetService.GetCommentsRequest request)
+        {
+            return base.Channel.GetComments(request);
+        }
+        
+        public string[] GetComments(string Headline, string Poster, out string[] Date, out string[] Time, out string[] Content)
+        {
+            DotNetService.GetCommentsRequest inValue = new DotNetService.GetCommentsRequest();
+            inValue.Headline = Headline;
+            inValue.Poster = Poster;
+            DotNetService.GetCommentsResponse retVal = ((DotNetService.IService1)(this)).GetComments(inValue);
+            Date = retVal.Date;
+            Time = retVal.Time;
+            Content = retVal.Content;
+            return retVal.CommentPoster;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GetCommentsResponse> GetCommentsAsync(DotNetService.GetCommentsRequest request)
+        {
+            return base.Channel.GetCommentsAsync(request);
+        }
+        
+        public void InsertComment(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time)
+        {
+            base.Channel.InsertComment(Poster, Commenter, Headline, Comment_Content, Date, Time);
+        }
+        
+        public System.Threading.Tasks.Task InsertCommentAsync(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time)
+        {
+            return base.Channel.InsertCommentAsync(Poster, Commenter, Headline, Comment_Content, Date, Time);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

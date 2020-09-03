@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plantarium.Forum_Content">
+             x:Class="Plantarium.Forum_Content"
+             Title="Forum Content"
+             >
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Spacing="0">
@@ -16,17 +18,18 @@
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
                
-                <Label  Grid.Column="1" x:Name="Forum_HeadlineLabel" FontSize="20" TextColor="Black" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Padding="10,0,10,0" ></Label>
+                    <Label  Grid.Column="1" x:Name="Forum_HeadlineLabel" FontSize="20" TextColor="Black" FontAttributes="Bold" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Padding="10,0,10,0" ></Label>
                     <Label Grid.Column="1" Grid.Row="1"  x:Name="UsernameLabel" TextColor="Black" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" VerticalOptions="Start" Padding="10,0,10,0"></Label>
-                    <Label Grid.Column="1"  x:Name="DateLabel" TextColor="DarkGray" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" Padding="10,0,10,0"></Label>
 
-                    <Label Grid.Column="1"  x:Name="TimeLabel" TextColor="DarkGray" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Center" Padding="10,0,10,0"></Label>
+                    <Label Grid.Column="1" Grid.Row="1"  x:Name="DateLabel" TextColor="DarkGray" FontSize="10" FontAttributes="Bold" HorizontalOptions="End" VerticalOptions="Start" Padding="10,0,10,0"></Label>
+
+                   
               
 
             </Grid>
 
-                <Label x:Name="ForumContent_Label" TextColor="Black" FontSize="15" HorizontalOptions="Start" VerticalOptions="Center" Padding="10,20,10,0" ></Label>
-                <Button x:Name="ViewCommentsButton" Text="View Comments" CornerRadius="10" BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" Clicked="ViewCommentsButton_Clicked"  ></Button>
+                <Label x:Name="ForumContent_Label" TextColor="Black" FontSize="15" HorizontalOptions="Start" VerticalOptions="Center" Padding="15,50,10,0" ></Label>
+                <Button x:Name="ViewCommentsButton" Padding="10,10" Text="View Comments" CornerRadius="10" BackgroundColor="Green" VerticalOptions="EndAndExpand" TextColor="White" HorizontalOptions="CenterAndExpand" Clicked="ViewCommentsButton_Clicked"  ></Button>
 
 
             </StackLayout>
