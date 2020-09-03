@@ -39,7 +39,7 @@ namespace Plantarium
             foreach(string s in UN)
             {
                 string y = DE[x].Substring(0, 10);
-                GetForum.Add(new Forums { Username = "u/" + UN[x], Headline = HL[x], Date = y, Time = TE[x] }   );
+                GetForum.Add(new Forums { Username = UN[x], Headline = HL[x], Date = y, Time = TE[x] }   );
                 x--;
             }
 
@@ -47,8 +47,17 @@ namespace Plantarium
 
         }
 
-        private void ForumListview_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void ForumListview_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+
+            var Selected = e.Item as Forums;
+            string Username = Selected.Username;
+            string Headline = Selected.Headline;
+
+            await Navigation.PushAsync(new Forum_Content(Username,Headline));
+
+
+
 
         }
 
@@ -68,11 +77,9 @@ namespace Plantarium
             }
         }
 
-
-
-
-
-
-
+        private async void AddForumButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddForum(Username));
+        }
     }
 }

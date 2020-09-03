@@ -93,6 +93,13 @@ namespace DotNetService
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumsAll", ReplyAction="http://tempuri.org/IService1/GetForumsAllResponse")]
         System.Threading.Tasks.Task<DotNetService.GetForumsAllResponse> GetForumsAllAsync(DotNetService.GetForumsAllRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumContent", ReplyAction="http://tempuri.org/IService1/GetForumContentResponse")]
+        DotNetService.GetForumContentResponse GetForumContent(DotNetService.GetForumContentRequest request);
+        
+        // CODEGEN: Generating message contract since the operation has multiple return values.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetForumContent", ReplyAction="http://tempuri.org/IService1/GetForumContentResponse")]
+        System.Threading.Tasks.Task<DotNetService.GetForumContentResponse> GetForumContentAsync(DotNetService.GetForumContentRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -371,6 +378,56 @@ namespace DotNetService
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetForumContent", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetForumContentRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string Username;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string Headline;
+        
+        public GetForumContentRequest()
+        {
+        }
+        
+        public GetForumContentRequest(string Username, string Headline)
+        {
+            this.Username = Username;
+            this.Headline = Headline;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="GetForumContentResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class GetForumContentResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public string ForumContent;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public string Date;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public string Time;
+        
+        public GetForumContentResponse()
+        {
+        }
+        
+        public GetForumContentResponse(string ForumContent, string Date, string Time)
+        {
+            this.ForumContent = ForumContent;
+            this.Date = Date;
+            this.Time = Time;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
     public interface IService1Channel : DotNetService.IService1, System.ServiceModel.IClientChannel
     {
@@ -607,6 +664,28 @@ namespace DotNetService
         public System.Threading.Tasks.Task<DotNetService.GetForumsAllResponse> GetForumsAllAsync(DotNetService.GetForumsAllRequest request)
         {
             return base.Channel.GetForumsAllAsync(request);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        DotNetService.GetForumContentResponse DotNetService.IService1.GetForumContent(DotNetService.GetForumContentRequest request)
+        {
+            return base.Channel.GetForumContent(request);
+        }
+        
+        public string GetForumContent(string Username, string Headline, out string Date, out string Time)
+        {
+            DotNetService.GetForumContentRequest inValue = new DotNetService.GetForumContentRequest();
+            inValue.Username = Username;
+            inValue.Headline = Headline;
+            DotNetService.GetForumContentResponse retVal = ((DotNetService.IService1)(this)).GetForumContent(inValue);
+            Date = retVal.Date;
+            Time = retVal.Time;
+            return retVal.ForumContent;
+        }
+        
+        public System.Threading.Tasks.Task<DotNetService.GetForumContentResponse> GetForumContentAsync(DotNetService.GetForumContentRequest request)
+        {
+            return base.Channel.GetForumContentAsync(request);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

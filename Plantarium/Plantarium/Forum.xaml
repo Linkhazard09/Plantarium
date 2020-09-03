@@ -47,6 +47,10 @@
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
+                    <ListView.Footer>
+                        <Button x:Name="AddForumButton" Clicked="AddForumButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" Text="Create Forum"></Button>
+                        
+                    </ListView.Footer>
                 </ListView>
             </StackLayout>
         </ScrollView>

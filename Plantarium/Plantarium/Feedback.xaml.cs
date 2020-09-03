@@ -45,7 +45,7 @@ namespace Plantarium
             {
 
                 string y = DE[x].Substring(0, 10);
-                AllFeedbacks.Add(new Feedbacks { Username = "u/" + UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
+                AllFeedbacks.Add(new Feedbacks { Username = UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
                     x--;
 
             }
