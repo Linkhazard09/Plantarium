@@ -41,17 +41,11 @@ namespace DotNetService
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetUsertInfo", ReplyAction="http://tempuri.org/IService1/GetUsertInfoResponse")]
         System.Threading.Tasks.Task<DotNetService.GetUsertInfoResponse> GetUsertInfoAsync(DotNetService.GetUsertInfoRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetSpamCounter", ReplyAction="http://tempuri.org/IService1/GetSpamCounterResponse")]
-        int GetSpamCounter(string Username);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetSpamCounter", ReplyAction="http://tempuri.org/IService1/GetSpamCounterResponse")]
-        System.Threading.Tasks.Task<int> GetSpamCounterAsync(string Username);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/UpdateSpamCounter", ReplyAction="http://tempuri.org/IService1/UpdateSpamCounterResponse")]
+        void UpdateSpamCounter(string Username, int SpamCounter);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/UpdateSpamCounter", ReplyAction="http://tempuri.org/IService1/UpdateSpamCounterResponse")]
-        void UpdateSpamCounter(string Username);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/UpdateSpamCounter", ReplyAction="http://tempuri.org/IService1/UpdateSpamCounterResponse")]
-        System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username);
+        System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username, int SpamCounter);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GuidesGet", ReplyAction="http://tempuri.org/IService1/GuidesGetResponse")]
         DotNetService.GuidesGetResponse GuidesGet(DotNetService.GuidesGetRequest request);
@@ -113,6 +107,30 @@ namespace DotNetService
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertComment", ReplyAction="http://tempuri.org/IService1/InsertCommentResponse")]
         System.Threading.Tasks.Task InsertCommentAsync(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertPhoto", ReplyAction="http://tempuri.org/IService1/InsertPhotoResponse")]
+        void InsertPhoto(byte[] Image, string Poster, string Headline);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertPhoto", ReplyAction="http://tempuri.org/IService1/InsertPhotoResponse")]
+        System.Threading.Tasks.Task InsertPhotoAsync(byte[] Image, string Poster, string Headline);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetPhoto", ReplyAction="http://tempuri.org/IService1/GetPhotoResponse")]
+        byte[] GetPhoto(string Poster, string Headline);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetPhoto", ReplyAction="http://tempuri.org/IService1/GetPhotoResponse")]
+        System.Threading.Tasks.Task<byte[]> GetPhotoAsync(string Poster, string Headline);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertForum", ReplyAction="http://tempuri.org/IService1/InsertForumResponse")]
+        void InsertForum(string Username, string Headline, string Date, string Time, string Forum_Content);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/InsertForum", ReplyAction="http://tempuri.org/IService1/InsertForumResponse")]
+        System.Threading.Tasks.Task InsertForumAsync(string Username, string Headline, string Date, string Time, string Forum_Content);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetSpamCounter", ReplyAction="http://tempuri.org/IService1/GetSpamCounterResponse")]
+        int GetSpamCounter(string Username);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetSpamCounter", ReplyAction="http://tempuri.org/IService1/GetSpamCounterResponse")]
+        System.Threading.Tasks.Task<int> GetSpamCounterAsync(string Username);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -598,24 +616,14 @@ namespace DotNetService
             return base.Channel.GetUsertInfoAsync(request);
         }
         
-        public int GetSpamCounter(string Username)
+        public void UpdateSpamCounter(string Username, int SpamCounter)
         {
-            return base.Channel.GetSpamCounter(Username);
+            base.Channel.UpdateSpamCounter(Username, SpamCounter);
         }
         
-        public System.Threading.Tasks.Task<int> GetSpamCounterAsync(string Username)
+        public System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username, int SpamCounter)
         {
-            return base.Channel.GetSpamCounterAsync(Username);
-        }
-        
-        public void UpdateSpamCounter(string Username)
-        {
-            base.Channel.UpdateSpamCounter(Username);
-        }
-        
-        public System.Threading.Tasks.Task UpdateSpamCounterAsync(string Username)
-        {
-            return base.Channel.UpdateSpamCounterAsync(Username);
+            return base.Channel.UpdateSpamCounterAsync(Username, SpamCounter);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -786,6 +794,46 @@ namespace DotNetService
         public System.Threading.Tasks.Task InsertCommentAsync(string Poster, string Commenter, string Headline, string Comment_Content, string Date, string Time)
         {
             return base.Channel.InsertCommentAsync(Poster, Commenter, Headline, Comment_Content, Date, Time);
+        }
+        
+        public void InsertPhoto(byte[] Image, string Poster, string Headline)
+        {
+            base.Channel.InsertPhoto(Image, Poster, Headline);
+        }
+        
+        public System.Threading.Tasks.Task InsertPhotoAsync(byte[] Image, string Poster, string Headline)
+        {
+            return base.Channel.InsertPhotoAsync(Image, Poster, Headline);
+        }
+        
+        public byte[] GetPhoto(string Poster, string Headline)
+        {
+            return base.Channel.GetPhoto(Poster, Headline);
+        }
+        
+        public System.Threading.Tasks.Task<byte[]> GetPhotoAsync(string Poster, string Headline)
+        {
+            return base.Channel.GetPhotoAsync(Poster, Headline);
+        }
+        
+        public void InsertForum(string Username, string Headline, string Date, string Time, string Forum_Content)
+        {
+            base.Channel.InsertForum(Username, Headline, Date, Time, Forum_Content);
+        }
+        
+        public System.Threading.Tasks.Task InsertForumAsync(string Username, string Headline, string Date, string Time, string Forum_Content)
+        {
+            return base.Channel.InsertForumAsync(Username, Headline, Date, Time, Forum_Content);
+        }
+        
+        public int GetSpamCounter(string Username)
+        {
+            return base.Channel.GetSpamCounter(Username);
+        }
+        
+        public System.Threading.Tasks.Task<int> GetSpamCounterAsync(string Username)
+        {
+            return base.Channel.GetSpamCounterAsync(Username);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

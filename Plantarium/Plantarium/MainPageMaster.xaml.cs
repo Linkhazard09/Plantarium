@@ -36,7 +36,9 @@ namespace Plantarium
                 {
                     new MainPageMasterMenuItem { Id = 0, Logo = "leaflogo", Title = "Forums"  },
                     new MainPageMasterMenuItem {Id = 0, Logo = "Sapling", Title = "Guides" },
+                    new MainPageMasterMenuItem {Id = 0, Logo = "Alarm", Title = "Notifications" },
                     new MainPageMasterMenuItem { Id = 1, Logo = "Logout", Title = "Logout" }
+
                 });
             }
 

@@ -1,6 +1,9 @@
-﻿using DotNetService;
+﻿using Android.Graphics;
+using DotNetService;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +25,7 @@ namespace Plantarium
         public Forum_Content(string Poster, string Headline, string User)
         {
             InitializeComponent();
-           
+            ByteArrayToImageSourceConverter conv = new ByteArrayToImageSourceConverter();
             this.Headline = Headline;
             string Date, Time, Forum_Content;
             this.Poster = Poster;
@@ -36,15 +39,22 @@ namespace Plantarium
             UsernameLabel.Text = Poster;
             Forum_HeadlineLabel.Text = Headline;
 
+            byte [] byteArray = srvc.GetPhoto(Poster, Headline);
+
+            string filepath = "/storage/emulated/0/Android/data/com.companyname.plantarium/files/Pictures/Sample/" + "test" + Headline.Replace(" ", "_") + ".png";
+         
+          
 
 
 
+            // ForumImage.Source = ImageSource.FromStream(() => new MemoryStream(byteArray,0, byteArray.Length));
+            ForumImage.Source = ImageSource.FromFile(filepath);
 
-
-
-
+            
+                           
         }
 
+       
         private async void ViewCommentsButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Comments(User,Headline,Poster));

@@ -33,14 +33,15 @@ namespace Plantarium
             HL = BB.ToList();
             DE = AA.ToList();
             TE = CC.ToList();
-            x = UN.Count() - 1;
+            x = 0;
+           
 
             GetForum = new List<Forums>();
             foreach(string s in UN)
             {
                 string y = DE[x].Substring(0, 10);
                 GetForum.Add(new Forums { Username = UN[x], Headline = HL[x], Date = y, Time = TE[x] }   );
-                x--;
+                x++;
             }
 
             BindingContext = this;
@@ -63,6 +64,7 @@ namespace Plantarium
 
         public class Forums
         {
+           
             public string Username { get; set; }
             public string Date { get; set; }
 

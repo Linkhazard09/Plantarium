@@ -1,12 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plantarium.AddForum">
+             x:Class="Plantarium.AddForum"
+             Title="Create Forum Post"
+             >
+    
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+        
+                    <Frame  CornerRadius="10" Padding="5" IsClippedToBounds="True" HasShadow="True" BorderColor="Black">
+                        <Entry x:Name="HeadlineEntry" HorizontalOptions="FillAndExpand" Placeholder="Headline"></Entry>
+                    </Frame>
+                    <Frame  CornerRadius="10" Padding="5" HeightRequest="250" WidthRequest="100"  IsClippedToBounds="True" HasShadow="True" BorderColor="Black">
+                        <Editor x:Name="ForumContentEditor" HorizontalOptions="FillAndExpand" Placeholder="Place forum content here!" AutoSize="TextChanges" IsSpellCheckEnabled="false"  IsTextPredictionEnabled="false" BackgroundColor="LightGreen"></Editor>
+                    </Frame>
+
+
+              
+                        
+                
+                
+                
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                   <Button x:Name="CameraButton" Clicked="CameraButton_Clicked" WidthRequest="140" HeightRequest="70" CornerRadius="10" TextColor="WhiteSmoke" HorizontalOptions="Center" BackgroundColor="Green" Text="Take Photo" Grid.Row="1" />
+                    <Button x:Name="UploadButton" Clicked="UploadButton_Clicked"  CornerRadius="10" TextColor="WhiteSmoke" WidthRequest="140" HeightRequest="70" HorizontalOptions="Center" BackgroundColor="Green" Text="Create Post" Grid.Row="2" ></Button>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

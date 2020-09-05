@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Android.App;
+using Android.Icu.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,10 +41,16 @@ namespace Plantarium
                 case "Guides":
                     await Navigation.PushAsync(new Guides(Username));
                     break;
+                case "Notifications":
+                    await Navigation.PushAsync(new Notifications());
+                    break;
 
 
 
             }
+
+            
+
 
             MasterPage.ListView.SelectedItem = null;
         }

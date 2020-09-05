@@ -25,6 +25,1685 @@ namespace Plantarium.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.LocalNotifications.Resource.Drawable.plugin_lc_smallicon = global::Plantarium.Droid.Resource.Drawable.plugin_lc_smallicon;
+			global::Plugin.Media.Resource.Attribute.alpha = global::Plantarium.Droid.Resource.Attribute.alpha;
+			global::Plugin.Media.Resource.Attribute.coordinatorLayoutStyle = global::Plantarium.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.Media.Resource.Attribute.font = global::Plantarium.Droid.Resource.Attribute.font;
+			global::Plugin.Media.Resource.Attribute.fontProviderAuthority = global::Plantarium.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.Media.Resource.Attribute.fontProviderCerts = global::Plantarium.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchStrategy = global::Plantarium.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Attribute.fontProviderFetchTimeout = global::Plantarium.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Attribute.fontProviderPackage = global::Plantarium.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.Media.Resource.Attribute.fontProviderQuery = global::Plantarium.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.Media.Resource.Attribute.fontStyle = global::Plantarium.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.Media.Resource.Attribute.fontVariationSettings = global::Plantarium.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.Media.Resource.Attribute.fontWeight = global::Plantarium.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.Media.Resource.Attribute.keylines = global::Plantarium.Droid.Resource.Attribute.keylines;
+			global::Plugin.Media.Resource.Attribute.layout_anchor = global::Plantarium.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Media.Resource.Attribute.layout_anchorGravity = global::Plantarium.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Media.Resource.Attribute.layout_behavior = global::Plantarium.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Media.Resource.Attribute.layout_dodgeInsetEdges = global::Plantarium.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Attribute.layout_insetEdge = global::Plantarium.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.Media.Resource.Attribute.layout_keyline = global::Plantarium.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Media.Resource.Attribute.statusBarBackground = global::Plantarium.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Media.Resource.Attribute.ttcIndex = global::Plantarium.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.Media.Resource.Color.browser_actions_bg_grey = global::Plantarium.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.Media.Resource.Color.browser_actions_divider_color = global::Plantarium.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.Media.Resource.Color.browser_actions_text_color = global::Plantarium.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.Media.Resource.Color.browser_actions_title_color = global::Plantarium.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.Media.Resource.Color.notification_action_color_filter = global::Plantarium.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.Media.Resource.Color.notification_icon_bg_color = global::Plantarium.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.Media.Resource.Color.ripple_material_light = global::Plantarium.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Media.Resource.Color.secondary_text_default_material_light = global::Plantarium.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_max_width = global::Plantarium.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_min_padding = global::Plantarium.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_horizontal_material = global::Plantarium.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_inset_vertical_material = global::Plantarium.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_horizontal_material = global::Plantarium.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.Media.Resource.Dimension.compat_button_padding_vertical_material = global::Plantarium.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.Media.Resource.Dimension.compat_control_corner_material = global::Plantarium.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_height = global::Plantarium.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.Media.Resource.Dimension.compat_notification_large_icon_max_width = global::Plantarium.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.Media.Resource.Dimension.notification_action_icon_size = global::Plantarium.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_action_text_size = global::Plantarium.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.Media.Resource.Dimension.notification_big_circle_margin = global::Plantarium.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.Media.Resource.Dimension.notification_content_margin_start = global::Plantarium.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_height = global::Plantarium.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Media.Resource.Dimension.notification_large_icon_width = global::Plantarium.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Media.Resource.Dimension.notification_main_column_padding_top = global::Plantarium.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_media_narrow_margin = global::Plantarium.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.Media.Resource.Dimension.notification_right_icon_size = global::Plantarium.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.Media.Resource.Dimension.notification_right_side_padding_top = global::Plantarium.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_background_padding = global::Plantarium.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.Media.Resource.Dimension.notification_small_icon_size_as_large = global::Plantarium.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.Media.Resource.Dimension.notification_subtext_size = global::Plantarium.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad = global::Plantarium.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.Media.Resource.Dimension.notification_top_pad_large_text = global::Plantarium.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.Media.Resource.Drawable.notification_action_background = global::Plantarium.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.Media.Resource.Drawable.notification_bg = global::Plantarium.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low = global::Plantarium.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_normal = global::Plantarium.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_low_pressed = global::Plantarium.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal = global::Plantarium.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.Media.Resource.Drawable.notification_bg_normal_pressed = global::Plantarium.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.Media.Resource.Drawable.notification_icon_background = global::Plantarium.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_bg = global::Plantarium.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Media.Resource.Drawable.notification_template_icon_low_bg = global::Plantarium.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.Media.Resource.Drawable.notification_tile_bg = global::Plantarium.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.Media.Resource.Drawable.notify_panel_notification_icon_bg = global::Plantarium.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.Media.Resource.Id.actions = global::Plantarium.Droid.Resource.Id.actions;
+			global::Plugin.Media.Resource.Id.action_container = global::Plantarium.Droid.Resource.Id.action_container;
+			global::Plugin.Media.Resource.Id.action_divider = global::Plantarium.Droid.Resource.Id.action_divider;
+			global::Plugin.Media.Resource.Id.action_image = global::Plantarium.Droid.Resource.Id.action_image;
+			global::Plugin.Media.Resource.Id.action_text = global::Plantarium.Droid.Resource.Id.action_text;
+			global::Plugin.Media.Resource.Id.all = global::Plantarium.Droid.Resource.Id.all;
+			global::Plugin.Media.Resource.Id.async = global::Plantarium.Droid.Resource.Id.async;
+			global::Plugin.Media.Resource.Id.blocking = global::Plantarium.Droid.Resource.Id.blocking;
+			global::Plugin.Media.Resource.Id.bottom = global::Plantarium.Droid.Resource.Id.bottom;
+			global::Plugin.Media.Resource.Id.browser_actions_header_text = global::Plantarium.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_items = global::Plantarium.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_icon = global::Plantarium.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_item_text = global::Plantarium.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.Media.Resource.Id.browser_actions_menu_view = global::Plantarium.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.Media.Resource.Id.center = global::Plantarium.Droid.Resource.Id.center;
+			global::Plugin.Media.Resource.Id.center_horizontal = global::Plantarium.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Media.Resource.Id.center_vertical = global::Plantarium.Droid.Resource.Id.center_vertical;
+			global::Plugin.Media.Resource.Id.chronometer = global::Plantarium.Droid.Resource.Id.chronometer;
+			global::Plugin.Media.Resource.Id.clip_horizontal = global::Plantarium.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Media.Resource.Id.clip_vertical = global::Plantarium.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Media.Resource.Id.end = global::Plantarium.Droid.Resource.Id.end;
+			global::Plugin.Media.Resource.Id.fill = global::Plantarium.Droid.Resource.Id.fill;
+			global::Plugin.Media.Resource.Id.fill_horizontal = global::Plantarium.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Media.Resource.Id.fill_vertical = global::Plantarium.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Media.Resource.Id.forever = global::Plantarium.Droid.Resource.Id.forever;
+			global::Plugin.Media.Resource.Id.icon = global::Plantarium.Droid.Resource.Id.icon;
+			global::Plugin.Media.Resource.Id.icon_group = global::Plantarium.Droid.Resource.Id.icon_group;
+			global::Plugin.Media.Resource.Id.info = global::Plantarium.Droid.Resource.Id.info;
+			global::Plugin.Media.Resource.Id.italic = global::Plantarium.Droid.Resource.Id.italic;
+			global::Plugin.Media.Resource.Id.left = global::Plantarium.Droid.Resource.Id.left;
+			global::Plugin.Media.Resource.Id.line1 = global::Plantarium.Droid.Resource.Id.line1;
+			global::Plugin.Media.Resource.Id.line3 = global::Plantarium.Droid.Resource.Id.line3;
+			global::Plugin.Media.Resource.Id.none = global::Plantarium.Droid.Resource.Id.none;
+			global::Plugin.Media.Resource.Id.normal = global::Plantarium.Droid.Resource.Id.normal;
+			global::Plugin.Media.Resource.Id.notification_background = global::Plantarium.Droid.Resource.Id.notification_background;
+			global::Plugin.Media.Resource.Id.notification_main_column = global::Plantarium.Droid.Resource.Id.notification_main_column;
+			global::Plugin.Media.Resource.Id.notification_main_column_container = global::Plantarium.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.Media.Resource.Id.right = global::Plantarium.Droid.Resource.Id.right;
+			global::Plugin.Media.Resource.Id.right_icon = global::Plantarium.Droid.Resource.Id.right_icon;
+			global::Plugin.Media.Resource.Id.right_side = global::Plantarium.Droid.Resource.Id.right_side;
+			global::Plugin.Media.Resource.Id.start = global::Plantarium.Droid.Resource.Id.start;
+			global::Plugin.Media.Resource.Id.tag_transition_group = global::Plantarium.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_event_manager = global::Plantarium.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.Media.Resource.Id.tag_unhandled_key_listeners = global::Plantarium.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.Media.Resource.Id.text = global::Plantarium.Droid.Resource.Id.text;
+			global::Plugin.Media.Resource.Id.text2 = global::Plantarium.Droid.Resource.Id.text2;
+			global::Plugin.Media.Resource.Id.time = global::Plantarium.Droid.Resource.Id.time;
+			global::Plugin.Media.Resource.Id.title = global::Plantarium.Droid.Resource.Id.title;
+			global::Plugin.Media.Resource.Id.top = global::Plantarium.Droid.Resource.Id.top;
+			global::Plugin.Media.Resource.Integer.status_bar_notification_info_maxnum = global::Plantarium.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::Plantarium.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::Plantarium.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.Media.Resource.Layout.notification_action = global::Plantarium.Droid.Resource.Layout.notification_action;
+			global::Plugin.Media.Resource.Layout.notification_action_tombstone = global::Plantarium.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.Media.Resource.Layout.notification_template_custom_big = global::Plantarium.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.Media.Resource.Layout.notification_template_icon_group = global::Plantarium.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.Media.Resource.Layout.notification_template_part_chronometer = global::Plantarium.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Media.Resource.Layout.notification_template_part_time = global::Plantarium.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Media.Resource.String.status_bar_notification_info_overflow = global::Plantarium.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification = global::Plantarium.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Info = global::Plantarium.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Plantarium.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Time = global::Plantarium.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.Media.Resource.Style.TextAppearance_Compat_Notification_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionContainer = global::Plantarium.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.Media.Resource.Style.Widget_Compat_NotificationActionText = global::Plantarium.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.Media.Resource.Style.Widget_Support_CoordinatorLayout = global::Plantarium.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem = global::Plantarium.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_alpha = global::Plantarium.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_alpha = global::Plantarium.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_color = global::Plantarium.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_keylines = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Media.Resource.Styleable.FontFamily = global::Plantarium.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_font = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_font = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontStyle = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_fontWeight = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.Media.Resource.Styleable.FontFamilyFont_ttcIndex = global::Plantarium.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderAuthority = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderCerts = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderPackage = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.Media.Resource.Styleable.FontFamily_fontProviderQuery = global::Plantarium.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.Media.Resource.Styleable.GradientColor = global::Plantarium.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem = global::Plantarium.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_color = global::Plantarium.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.Media.Resource.Styleable.GradientColorItem_android_offset = global::Plantarium.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerColor = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerX = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_centerY = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endColor = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endX = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_endY = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_gradientRadius = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startColor = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startX = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_startY = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::Plantarium.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Plantarium.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Plugin.Toasts.Resource.Animation.abc_fade_in = global::Plantarium.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.Toasts.Resource.Animation.abc_fade_out = global::Plantarium.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.Toasts.Resource.Animation.abc_grow_fade_in_from_bottom = global::Plantarium.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.Toasts.Resource.Animation.abc_popup_enter = global::Plantarium.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.Toasts.Resource.Animation.abc_popup_exit = global::Plantarium.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.Toasts.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Plantarium.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.Toasts.Resource.Animation.abc_slide_in_bottom = global::Plantarium.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.Toasts.Resource.Animation.abc_slide_in_top = global::Plantarium.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.Toasts.Resource.Animation.abc_slide_out_bottom = global::Plantarium.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.Toasts.Resource.Animation.abc_slide_out_top = global::Plantarium.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.Toasts.Resource.Animation.design_bottom_sheet_slide_in = global::Plantarium.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.Toasts.Resource.Animation.design_bottom_sheet_slide_out = global::Plantarium.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.Toasts.Resource.Animation.design_snackbar_in = global::Plantarium.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.Toasts.Resource.Animation.design_snackbar_out = global::Plantarium.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.Toasts.Resource.Attribute.actionBarDivider = global::Plantarium.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.Toasts.Resource.Attribute.actionBarItemBackground = global::Plantarium.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.Toasts.Resource.Attribute.actionBarPopupTheme = global::Plantarium.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.Toasts.Resource.Attribute.actionBarSize = global::Plantarium.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.Toasts.Resource.Attribute.actionBarSplitStyle = global::Plantarium.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionBarStyle = global::Plantarium.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionBarTabBarStyle = global::Plantarium.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionBarTabStyle = global::Plantarium.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionBarTabTextStyle = global::Plantarium.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionBarTheme = global::Plantarium.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.Toasts.Resource.Attribute.actionBarWidgetTheme = global::Plantarium.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.Toasts.Resource.Attribute.actionButtonStyle = global::Plantarium.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionDropDownStyle = global::Plantarium.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionLayout = global::Plantarium.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.Toasts.Resource.Attribute.actionMenuTextAppearance = global::Plantarium.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.actionMenuTextColor = global::Plantarium.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.Toasts.Resource.Attribute.actionModeBackground = global::Plantarium.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.Toasts.Resource.Attribute.actionModeCloseButtonStyle = global::Plantarium.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionModeCloseDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModeCopyDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModeCutDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModeFindDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModePasteDrawable = global::Plantarium.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModePopupWindowStyle = global::Plantarium.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionModeSelectAllDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModeShareDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionModeSplitBackground = global::Plantarium.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.Toasts.Resource.Attribute.actionModeStyle = global::Plantarium.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionModeWebSearchDrawable = global::Plantarium.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.Toasts.Resource.Attribute.actionOverflowButtonStyle = global::Plantarium.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionOverflowMenuStyle = global::Plantarium.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.Toasts.Resource.Attribute.actionProviderClass = global::Plantarium.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.Toasts.Resource.Attribute.actionViewClass = global::Plantarium.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.Toasts.Resource.Attribute.activityChooserViewStyle = global::Plantarium.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.Toasts.Resource.Attribute.alertDialogButtonGroupStyle = global::Plantarium.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.Toasts.Resource.Attribute.alertDialogCenterButtons = global::Plantarium.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.Toasts.Resource.Attribute.alertDialogStyle = global::Plantarium.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.Toasts.Resource.Attribute.alertDialogTheme = global::Plantarium.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.Toasts.Resource.Attribute.allowStacking = global::Plantarium.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.Toasts.Resource.Attribute.arrowHeadLength = global::Plantarium.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.Toasts.Resource.Attribute.arrowShaftLength = global::Plantarium.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.Toasts.Resource.Attribute.autoCompleteTextViewStyle = global::Plantarium.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.Toasts.Resource.Attribute.background = global::Plantarium.Droid.Resource.Attribute.background;
+			global::Plugin.Toasts.Resource.Attribute.backgroundSplit = global::Plantarium.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.Toasts.Resource.Attribute.backgroundStacked = global::Plantarium.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.Toasts.Resource.Attribute.backgroundTint = global::Plantarium.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.Toasts.Resource.Attribute.backgroundTintMode = global::Plantarium.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.Toasts.Resource.Attribute.barLength = global::Plantarium.Droid.Resource.Attribute.barLength;
+			global::Plugin.Toasts.Resource.Attribute.behavior_hideable = global::Plantarium.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.Toasts.Resource.Attribute.behavior_overlapTop = global::Plantarium.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.Toasts.Resource.Attribute.behavior_peekHeight = global::Plantarium.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.Toasts.Resource.Attribute.borderWidth = global::Plantarium.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.Toasts.Resource.Attribute.borderlessButtonStyle = global::Plantarium.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.bottomSheetDialogTheme = global::Plantarium.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.Toasts.Resource.Attribute.bottomSheetStyle = global::Plantarium.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonBarButtonStyle = global::Plantarium.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonBarNegativeButtonStyle = global::Plantarium.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonBarNeutralButtonStyle = global::Plantarium.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonBarPositiveButtonStyle = global::Plantarium.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonBarStyle = global::Plantarium.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonPanelSideLayout = global::Plantarium.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.Toasts.Resource.Attribute.buttonStyle = global::Plantarium.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.Toasts.Resource.Attribute.buttonStyleSmall = global::Plantarium.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.Toasts.Resource.Attribute.buttonTint = global::Plantarium.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.Toasts.Resource.Attribute.buttonTintMode = global::Plantarium.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.Toasts.Resource.Attribute.checkboxStyle = global::Plantarium.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.Toasts.Resource.Attribute.checkedTextViewStyle = global::Plantarium.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.Toasts.Resource.Attribute.closeIcon = global::Plantarium.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.Toasts.Resource.Attribute.closeItemLayout = global::Plantarium.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.Toasts.Resource.Attribute.collapseContentDescription = global::Plantarium.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.Toasts.Resource.Attribute.collapseIcon = global::Plantarium.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.Toasts.Resource.Attribute.collapsedTitleGravity = global::Plantarium.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.Toasts.Resource.Attribute.collapsedTitleTextAppearance = global::Plantarium.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.color = global::Plantarium.Droid.Resource.Attribute.color;
+			global::Plugin.Toasts.Resource.Attribute.colorAccent = global::Plantarium.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.Toasts.Resource.Attribute.colorButtonNormal = global::Plantarium.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.Toasts.Resource.Attribute.colorControlActivated = global::Plantarium.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.Toasts.Resource.Attribute.colorControlHighlight = global::Plantarium.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.Toasts.Resource.Attribute.colorControlNormal = global::Plantarium.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.Toasts.Resource.Attribute.colorPrimary = global::Plantarium.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.Toasts.Resource.Attribute.colorPrimaryDark = global::Plantarium.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.Toasts.Resource.Attribute.colorSwitchThumbNormal = global::Plantarium.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.Toasts.Resource.Attribute.commitIcon = global::Plantarium.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.Toasts.Resource.Attribute.contentInsetEnd = global::Plantarium.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.Toasts.Resource.Attribute.contentInsetLeft = global::Plantarium.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.Toasts.Resource.Attribute.contentInsetRight = global::Plantarium.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.Toasts.Resource.Attribute.contentInsetStart = global::Plantarium.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.Toasts.Resource.Attribute.contentScrim = global::Plantarium.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.Toasts.Resource.Attribute.controlBackground = global::Plantarium.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.Toasts.Resource.Attribute.counterEnabled = global::Plantarium.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.Toasts.Resource.Attribute.counterMaxLength = global::Plantarium.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.Toasts.Resource.Attribute.counterOverflowTextAppearance = global::Plantarium.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.counterTextAppearance = global::Plantarium.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.customNavigationLayout = global::Plantarium.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.Toasts.Resource.Attribute.defaultQueryHint = global::Plantarium.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.Toasts.Resource.Attribute.dialogPreferredPadding = global::Plantarium.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.Toasts.Resource.Attribute.dialogTheme = global::Plantarium.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.Toasts.Resource.Attribute.displayOptions = global::Plantarium.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.Toasts.Resource.Attribute.divider = global::Plantarium.Droid.Resource.Attribute.divider;
+			global::Plugin.Toasts.Resource.Attribute.dividerHorizontal = global::Plantarium.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.Toasts.Resource.Attribute.dividerPadding = global::Plantarium.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.Toasts.Resource.Attribute.dividerVertical = global::Plantarium.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.Toasts.Resource.Attribute.drawableSize = global::Plantarium.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.Toasts.Resource.Attribute.drawerArrowStyle = global::Plantarium.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.Toasts.Resource.Attribute.dropDownListViewStyle = global::Plantarium.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.Toasts.Resource.Attribute.dropdownListPreferredItemHeight = global::Plantarium.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.Toasts.Resource.Attribute.editTextBackground = global::Plantarium.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.Toasts.Resource.Attribute.editTextColor = global::Plantarium.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.Toasts.Resource.Attribute.editTextStyle = global::Plantarium.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.Toasts.Resource.Attribute.elevation = global::Plantarium.Droid.Resource.Attribute.elevation;
+			global::Plugin.Toasts.Resource.Attribute.errorEnabled = global::Plantarium.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.Toasts.Resource.Attribute.errorTextAppearance = global::Plantarium.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Plantarium.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.Toasts.Resource.Attribute.expanded = global::Plantarium.Droid.Resource.Attribute.expanded;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleGravity = global::Plantarium.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleMargin = global::Plantarium.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleMarginBottom = global::Plantarium.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleMarginEnd = global::Plantarium.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleMarginStart = global::Plantarium.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleMarginTop = global::Plantarium.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.Toasts.Resource.Attribute.expandedTitleTextAppearance = global::Plantarium.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.fabSize = global::Plantarium.Droid.Resource.Attribute.fabSize;
+			global::Plugin.Toasts.Resource.Attribute.foregroundInsidePadding = global::Plantarium.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.Toasts.Resource.Attribute.gapBetweenBars = global::Plantarium.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.Toasts.Resource.Attribute.goIcon = global::Plantarium.Droid.Resource.Attribute.goIcon;
+			global::Plugin.Toasts.Resource.Attribute.headerLayout = global::Plantarium.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.Toasts.Resource.Attribute.height = global::Plantarium.Droid.Resource.Attribute.height;
+			global::Plugin.Toasts.Resource.Attribute.hideOnContentScroll = global::Plantarium.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.Toasts.Resource.Attribute.hintAnimationEnabled = global::Plantarium.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.Toasts.Resource.Attribute.hintEnabled = global::Plantarium.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.Toasts.Resource.Attribute.hintTextAppearance = global::Plantarium.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.homeAsUpIndicator = global::Plantarium.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.Toasts.Resource.Attribute.homeLayout = global::Plantarium.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.Toasts.Resource.Attribute.icon = global::Plantarium.Droid.Resource.Attribute.icon;
+			global::Plugin.Toasts.Resource.Attribute.iconifiedByDefault = global::Plantarium.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.Toasts.Resource.Attribute.imageButtonStyle = global::Plantarium.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.indeterminateProgressStyle = global::Plantarium.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.Toasts.Resource.Attribute.initialActivityCount = global::Plantarium.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.Toasts.Resource.Attribute.insetForeground = global::Plantarium.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.Toasts.Resource.Attribute.isLightTheme = global::Plantarium.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.Toasts.Resource.Attribute.itemBackground = global::Plantarium.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.Toasts.Resource.Attribute.itemIconTint = global::Plantarium.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.Toasts.Resource.Attribute.itemPadding = global::Plantarium.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.Toasts.Resource.Attribute.itemTextAppearance = global::Plantarium.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.itemTextColor = global::Plantarium.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.Toasts.Resource.Attribute.keylines = global::Plantarium.Droid.Resource.Attribute.keylines;
+			global::Plugin.Toasts.Resource.Attribute.layout = global::Plantarium.Droid.Resource.Attribute.layout;
+			global::Plugin.Toasts.Resource.Attribute.layoutManager = global::Plantarium.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.Toasts.Resource.Attribute.layout_anchor = global::Plantarium.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.Toasts.Resource.Attribute.layout_anchorGravity = global::Plantarium.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.Toasts.Resource.Attribute.layout_behavior = global::Plantarium.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.Toasts.Resource.Attribute.layout_collapseMode = global::Plantarium.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.Toasts.Resource.Attribute.layout_collapseParallaxMultiplier = global::Plantarium.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.Toasts.Resource.Attribute.layout_keyline = global::Plantarium.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.Toasts.Resource.Attribute.layout_scrollFlags = global::Plantarium.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.Toasts.Resource.Attribute.layout_scrollInterpolator = global::Plantarium.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.Toasts.Resource.Attribute.listChoiceBackgroundIndicator = global::Plantarium.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.Toasts.Resource.Attribute.listDividerAlertDialog = global::Plantarium.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.Toasts.Resource.Attribute.listItemLayout = global::Plantarium.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.Toasts.Resource.Attribute.listLayout = global::Plantarium.Droid.Resource.Attribute.listLayout;
+			global::Plugin.Toasts.Resource.Attribute.listPopupWindowStyle = global::Plantarium.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.Toasts.Resource.Attribute.listPreferredItemHeight = global::Plantarium.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.Toasts.Resource.Attribute.listPreferredItemHeightLarge = global::Plantarium.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.Toasts.Resource.Attribute.listPreferredItemHeightSmall = global::Plantarium.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.Toasts.Resource.Attribute.listPreferredItemPaddingLeft = global::Plantarium.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.Toasts.Resource.Attribute.listPreferredItemPaddingRight = global::Plantarium.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.Toasts.Resource.Attribute.logo = global::Plantarium.Droid.Resource.Attribute.logo;
+			global::Plugin.Toasts.Resource.Attribute.logoDescription = global::Plantarium.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.Toasts.Resource.Attribute.maxActionInlineWidth = global::Plantarium.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.Toasts.Resource.Attribute.maxButtonHeight = global::Plantarium.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.Toasts.Resource.Attribute.measureWithLargestChild = global::Plantarium.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.Toasts.Resource.Attribute.menu = global::Plantarium.Droid.Resource.Attribute.menu;
+			global::Plugin.Toasts.Resource.Attribute.multiChoiceItemLayout = global::Plantarium.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.Toasts.Resource.Attribute.navigationContentDescription = global::Plantarium.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.Toasts.Resource.Attribute.navigationIcon = global::Plantarium.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.Toasts.Resource.Attribute.navigationMode = global::Plantarium.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.Toasts.Resource.Attribute.overlapAnchor = global::Plantarium.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.Toasts.Resource.Attribute.paddingEnd = global::Plantarium.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.Toasts.Resource.Attribute.paddingStart = global::Plantarium.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.Toasts.Resource.Attribute.panelBackground = global::Plantarium.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.Toasts.Resource.Attribute.panelMenuListTheme = global::Plantarium.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.Toasts.Resource.Attribute.panelMenuListWidth = global::Plantarium.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.Toasts.Resource.Attribute.popupMenuStyle = global::Plantarium.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.Toasts.Resource.Attribute.popupTheme = global::Plantarium.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.Toasts.Resource.Attribute.popupWindowStyle = global::Plantarium.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.Toasts.Resource.Attribute.preserveIconSpacing = global::Plantarium.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.Toasts.Resource.Attribute.pressedTranslationZ = global::Plantarium.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.Toasts.Resource.Attribute.progressBarPadding = global::Plantarium.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.Toasts.Resource.Attribute.progressBarStyle = global::Plantarium.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.queryBackground = global::Plantarium.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.Toasts.Resource.Attribute.queryHint = global::Plantarium.Droid.Resource.Attribute.queryHint;
+			global::Plugin.Toasts.Resource.Attribute.radioButtonStyle = global::Plantarium.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.ratingBarStyle = global::Plantarium.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.ratingBarStyleIndicator = global::Plantarium.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.Toasts.Resource.Attribute.ratingBarStyleSmall = global::Plantarium.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.Toasts.Resource.Attribute.reverseLayout = global::Plantarium.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.Toasts.Resource.Attribute.rippleColor = global::Plantarium.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.Toasts.Resource.Attribute.searchHintIcon = global::Plantarium.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.Toasts.Resource.Attribute.searchIcon = global::Plantarium.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.Toasts.Resource.Attribute.searchViewStyle = global::Plantarium.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.Toasts.Resource.Attribute.seekBarStyle = global::Plantarium.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.Toasts.Resource.Attribute.selectableItemBackground = global::Plantarium.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.Toasts.Resource.Attribute.selectableItemBackgroundBorderless = global::Plantarium.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.Toasts.Resource.Attribute.showAsAction = global::Plantarium.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.Toasts.Resource.Attribute.showDividers = global::Plantarium.Droid.Resource.Attribute.showDividers;
+			global::Plugin.Toasts.Resource.Attribute.showText = global::Plantarium.Droid.Resource.Attribute.showText;
+			global::Plugin.Toasts.Resource.Attribute.singleChoiceItemLayout = global::Plantarium.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.Toasts.Resource.Attribute.spanCount = global::Plantarium.Droid.Resource.Attribute.spanCount;
+			global::Plugin.Toasts.Resource.Attribute.spinBars = global::Plantarium.Droid.Resource.Attribute.spinBars;
+			global::Plugin.Toasts.Resource.Attribute.spinnerDropDownItemStyle = global::Plantarium.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.Toasts.Resource.Attribute.spinnerStyle = global::Plantarium.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.Toasts.Resource.Attribute.splitTrack = global::Plantarium.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.Toasts.Resource.Attribute.srcCompat = global::Plantarium.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.Toasts.Resource.Attribute.stackFromEnd = global::Plantarium.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.Toasts.Resource.Attribute.state_above_anchor = global::Plantarium.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.Toasts.Resource.Attribute.statusBarBackground = global::Plantarium.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.Toasts.Resource.Attribute.statusBarScrim = global::Plantarium.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.Toasts.Resource.Attribute.submitBackground = global::Plantarium.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.Toasts.Resource.Attribute.subtitle = global::Plantarium.Droid.Resource.Attribute.subtitle;
+			global::Plugin.Toasts.Resource.Attribute.subtitleTextAppearance = global::Plantarium.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.subtitleTextColor = global::Plantarium.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.Toasts.Resource.Attribute.subtitleTextStyle = global::Plantarium.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.Toasts.Resource.Attribute.suggestionRowLayout = global::Plantarium.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.Toasts.Resource.Attribute.switchMinWidth = global::Plantarium.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.Toasts.Resource.Attribute.switchPadding = global::Plantarium.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.Toasts.Resource.Attribute.switchStyle = global::Plantarium.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.Toasts.Resource.Attribute.switchTextAppearance = global::Plantarium.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.tabBackground = global::Plantarium.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.Toasts.Resource.Attribute.tabContentStart = global::Plantarium.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.Toasts.Resource.Attribute.tabGravity = global::Plantarium.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.Toasts.Resource.Attribute.tabIndicatorColor = global::Plantarium.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.Toasts.Resource.Attribute.tabIndicatorHeight = global::Plantarium.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.Toasts.Resource.Attribute.tabMaxWidth = global::Plantarium.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.Toasts.Resource.Attribute.tabMinWidth = global::Plantarium.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.Toasts.Resource.Attribute.tabMode = global::Plantarium.Droid.Resource.Attribute.tabMode;
+			global::Plugin.Toasts.Resource.Attribute.tabPadding = global::Plantarium.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.Toasts.Resource.Attribute.tabPaddingBottom = global::Plantarium.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.Toasts.Resource.Attribute.tabPaddingEnd = global::Plantarium.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.Toasts.Resource.Attribute.tabPaddingStart = global::Plantarium.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.Toasts.Resource.Attribute.tabPaddingTop = global::Plantarium.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.Toasts.Resource.Attribute.tabSelectedTextColor = global::Plantarium.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.Toasts.Resource.Attribute.tabTextAppearance = global::Plantarium.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.tabTextColor = global::Plantarium.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.Toasts.Resource.Attribute.textAllCaps = global::Plantarium.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceLargePopupMenu = global::Plantarium.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceListItem = global::Plantarium.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceListItemSmall = global::Plantarium.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Plantarium.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceSearchResultTitle = global::Plantarium.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.Toasts.Resource.Attribute.textAppearanceSmallPopupMenu = global::Plantarium.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.Toasts.Resource.Attribute.textColorAlertDialogListItem = global::Plantarium.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.Toasts.Resource.Attribute.textColorSearchUrl = global::Plantarium.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.Toasts.Resource.Attribute.theme = global::Plantarium.Droid.Resource.Attribute.theme;
+			global::Plugin.Toasts.Resource.Attribute.thickness = global::Plantarium.Droid.Resource.Attribute.thickness;
+			global::Plugin.Toasts.Resource.Attribute.thumbTextPadding = global::Plantarium.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.Toasts.Resource.Attribute.title = global::Plantarium.Droid.Resource.Attribute.title;
+			global::Plugin.Toasts.Resource.Attribute.titleEnabled = global::Plantarium.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.Toasts.Resource.Attribute.titleMarginBottom = global::Plantarium.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.Toasts.Resource.Attribute.titleMarginEnd = global::Plantarium.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.Toasts.Resource.Attribute.titleMarginStart = global::Plantarium.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.Toasts.Resource.Attribute.titleMarginTop = global::Plantarium.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.Toasts.Resource.Attribute.titleMargins = global::Plantarium.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.Toasts.Resource.Attribute.titleTextAppearance = global::Plantarium.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.Toasts.Resource.Attribute.titleTextColor = global::Plantarium.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.Toasts.Resource.Attribute.titleTextStyle = global::Plantarium.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.Toasts.Resource.Attribute.toolbarId = global::Plantarium.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.Toasts.Resource.Attribute.toolbarNavigationButtonStyle = global::Plantarium.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.Toasts.Resource.Attribute.toolbarStyle = global::Plantarium.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.Toasts.Resource.Attribute.track = global::Plantarium.Droid.Resource.Attribute.track;
+			global::Plugin.Toasts.Resource.Attribute.useCompatPadding = global::Plantarium.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.Toasts.Resource.Attribute.voiceIcon = global::Plantarium.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.Toasts.Resource.Attribute.windowActionBar = global::Plantarium.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.Toasts.Resource.Attribute.windowActionBarOverlay = global::Plantarium.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.Toasts.Resource.Attribute.windowActionModeOverlay = global::Plantarium.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.Toasts.Resource.Attribute.windowFixedHeightMajor = global::Plantarium.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.Toasts.Resource.Attribute.windowFixedHeightMinor = global::Plantarium.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.Toasts.Resource.Attribute.windowFixedWidthMajor = global::Plantarium.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.Toasts.Resource.Attribute.windowFixedWidthMinor = global::Plantarium.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.Toasts.Resource.Attribute.windowMinWidthMajor = global::Plantarium.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.Toasts.Resource.Attribute.windowMinWidthMinor = global::Plantarium.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.Toasts.Resource.Attribute.windowNoTitle = global::Plantarium.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.Toasts.Resource.Boolean.abc_action_bar_embed_tabs = global::Plantarium.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.Toasts.Resource.Boolean.abc_allow_stacked_button_bar = global::Plantarium.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.Toasts.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Plantarium.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.Toasts.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Plantarium.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.Toasts.Resource.Color.abc_background_cache_hint_selector_material_light = global::Plantarium.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.Toasts.Resource.Color.abc_color_highlight_material = global::Plantarium.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.Toasts.Resource.Color.abc_input_method_navigation_guard = global::Plantarium.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.Toasts.Resource.Color.abc_primary_text_disable_only_material_dark = global::Plantarium.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.Toasts.Resource.Color.abc_primary_text_disable_only_material_light = global::Plantarium.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.Toasts.Resource.Color.abc_primary_text_material_dark = global::Plantarium.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.Toasts.Resource.Color.abc_primary_text_material_light = global::Plantarium.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.Toasts.Resource.Color.abc_search_url_text = global::Plantarium.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.Toasts.Resource.Color.abc_search_url_text_normal = global::Plantarium.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.Toasts.Resource.Color.abc_search_url_text_pressed = global::Plantarium.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.Toasts.Resource.Color.abc_search_url_text_selected = global::Plantarium.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.Toasts.Resource.Color.abc_secondary_text_material_dark = global::Plantarium.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.Toasts.Resource.Color.abc_secondary_text_material_light = global::Plantarium.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.Toasts.Resource.Color.accent_material_dark = global::Plantarium.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.Toasts.Resource.Color.accent_material_light = global::Plantarium.Droid.Resource.Color.accent_material_light;
+			global::Plugin.Toasts.Resource.Color.background_floating_material_dark = global::Plantarium.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.Toasts.Resource.Color.background_floating_material_light = global::Plantarium.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.Toasts.Resource.Color.background_material_dark = global::Plantarium.Droid.Resource.Color.background_material_dark;
+			global::Plugin.Toasts.Resource.Color.background_material_light = global::Plantarium.Droid.Resource.Color.background_material_light;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_disabled_material_dark = global::Plantarium.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_disabled_material_light = global::Plantarium.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_inverse_material_dark = global::Plantarium.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_inverse_material_light = global::Plantarium.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_material_dark = global::Plantarium.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.Toasts.Resource.Color.bright_foreground_material_light = global::Plantarium.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.Toasts.Resource.Color.button_material_dark = global::Plantarium.Droid.Resource.Color.button_material_dark;
+			global::Plugin.Toasts.Resource.Color.button_material_light = global::Plantarium.Droid.Resource.Color.button_material_light;
+			global::Plugin.Toasts.Resource.Color.design_fab_shadow_end_color = global::Plantarium.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_shadow_mid_color = global::Plantarium.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_shadow_start_color = global::Plantarium.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_stroke_end_inner_color = global::Plantarium.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_stroke_end_outer_color = global::Plantarium.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_stroke_top_inner_color = global::Plantarium.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.Toasts.Resource.Color.design_fab_stroke_top_outer_color = global::Plantarium.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.Toasts.Resource.Color.design_snackbar_background_color = global::Plantarium.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.Toasts.Resource.Color.dim_foreground_disabled_material_dark = global::Plantarium.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.Toasts.Resource.Color.dim_foreground_disabled_material_light = global::Plantarium.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.Toasts.Resource.Color.dim_foreground_material_dark = global::Plantarium.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.Toasts.Resource.Color.dim_foreground_material_light = global::Plantarium.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.Toasts.Resource.Color.foreground_material_dark = global::Plantarium.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.Toasts.Resource.Color.foreground_material_light = global::Plantarium.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.Toasts.Resource.Color.highlighted_text_material_dark = global::Plantarium.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.Toasts.Resource.Color.highlighted_text_material_light = global::Plantarium.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.Toasts.Resource.Color.material_blue_grey_800 = global::Plantarium.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.Toasts.Resource.Color.material_blue_grey_900 = global::Plantarium.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.Toasts.Resource.Color.material_blue_grey_950 = global::Plantarium.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.Toasts.Resource.Color.material_deep_teal_200 = global::Plantarium.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.Toasts.Resource.Color.material_deep_teal_500 = global::Plantarium.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.Toasts.Resource.Color.material_grey_100 = global::Plantarium.Droid.Resource.Color.material_grey_100;
+			global::Plugin.Toasts.Resource.Color.material_grey_300 = global::Plantarium.Droid.Resource.Color.material_grey_300;
+			global::Plugin.Toasts.Resource.Color.material_grey_50 = global::Plantarium.Droid.Resource.Color.material_grey_50;
+			global::Plugin.Toasts.Resource.Color.material_grey_600 = global::Plantarium.Droid.Resource.Color.material_grey_600;
+			global::Plugin.Toasts.Resource.Color.material_grey_800 = global::Plantarium.Droid.Resource.Color.material_grey_800;
+			global::Plugin.Toasts.Resource.Color.material_grey_850 = global::Plantarium.Droid.Resource.Color.material_grey_850;
+			global::Plugin.Toasts.Resource.Color.material_grey_900 = global::Plantarium.Droid.Resource.Color.material_grey_900;
+			global::Plugin.Toasts.Resource.Color.primary_dark_material_dark = global::Plantarium.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.Toasts.Resource.Color.primary_dark_material_light = global::Plantarium.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.Toasts.Resource.Color.primary_material_dark = global::Plantarium.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.Toasts.Resource.Color.primary_material_light = global::Plantarium.Droid.Resource.Color.primary_material_light;
+			global::Plugin.Toasts.Resource.Color.primary_text_default_material_dark = global::Plantarium.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.Toasts.Resource.Color.primary_text_default_material_light = global::Plantarium.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.Toasts.Resource.Color.primary_text_disabled_material_dark = global::Plantarium.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.Toasts.Resource.Color.primary_text_disabled_material_light = global::Plantarium.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.Toasts.Resource.Color.ripple_material_dark = global::Plantarium.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.Toasts.Resource.Color.ripple_material_light = global::Plantarium.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.Toasts.Resource.Color.secondary_text_default_material_dark = global::Plantarium.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.Toasts.Resource.Color.secondary_text_default_material_light = global::Plantarium.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.Toasts.Resource.Color.secondary_text_disabled_material_dark = global::Plantarium.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.Toasts.Resource.Color.secondary_text_disabled_material_light = global::Plantarium.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_disabled_material_dark = global::Plantarium.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_disabled_material_light = global::Plantarium.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_material_dark = global::Plantarium.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_material_light = global::Plantarium.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_normal_material_dark = global::Plantarium.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.Toasts.Resource.Color.switch_thumb_normal_material_light = global::Plantarium.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_content_inset_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_default_height_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_stacked_max_height = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Plantarium.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_button_min_height_material = global::Plantarium.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_button_min_width_material = global::Plantarium.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Plantarium.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Plantarium.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.Toasts.Resource.Dimension.abc_button_inset_horizontal_material = global::Plantarium.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_button_inset_vertical_material = global::Plantarium.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_button_padding_horizontal_material = global::Plantarium.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_button_padding_vertical_material = global::Plantarium.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_config_prefDialogWidth = global::Plantarium.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.Toasts.Resource.Dimension.abc_control_corner_material = global::Plantarium.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_control_inset_material = global::Plantarium.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_control_padding_material = global::Plantarium.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_fixed_height_major = global::Plantarium.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_fixed_height_minor = global::Plantarium.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_fixed_width_major = global::Plantarium.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_fixed_width_minor = global::Plantarium.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_min_width_major = global::Plantarium.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_min_width_minor = global::Plantarium.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_padding_material = global::Plantarium.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_dialog_padding_top_material = global::Plantarium.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_disabled_alpha_material_dark = global::Plantarium.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.Toasts.Resource.Dimension.abc_disabled_alpha_material_light = global::Plantarium.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.Toasts.Resource.Dimension.abc_dropdownitem_icon_width = global::Plantarium.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.Toasts.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Plantarium.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.Toasts.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Plantarium.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.Toasts.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Plantarium.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Plantarium.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_edit_text_inset_top_material = global::Plantarium.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_floating_window_z = global::Plantarium.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.Toasts.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Plantarium.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_panel_menu_list_width = global::Plantarium.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.Toasts.Resource.Dimension.abc_search_view_preferred_width = global::Plantarium.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.Toasts.Resource.Dimension.abc_seekbar_track_background_height_material = global::Plantarium.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Plantarium.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_select_dialog_padding_start_material = global::Plantarium.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_switch_padding = global::Plantarium.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_body_1_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_body_2_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_button_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_caption_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_display_1_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_display_2_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_display_3_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_display_4_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_headline_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_large_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_medium_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_menu_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_small_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_subhead_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Plantarium.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_title_material = global::Plantarium.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.Toasts.Resource.Dimension.abc_text_size_title_material_toolbar = global::Plantarium.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.Toasts.Resource.Dimension.design_appbar_elevation = global::Plantarium.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.Toasts.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Plantarium.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_border_width = global::Plantarium.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_elevation = global::Plantarium.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_image_size = global::Plantarium.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_size_mini = global::Plantarium.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_size_normal = global::Plantarium.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.Toasts.Resource.Dimension.design_fab_translation_z_pressed = global::Plantarium.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_elevation = global::Plantarium.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_icon_padding = global::Plantarium.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_icon_size = global::Plantarium.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_max_width = global::Plantarium.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_padding_bottom = global::Plantarium.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.Toasts.Resource.Dimension.design_navigation_separator_vertical_padding = global::Plantarium.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_action_inline_max_width = global::Plantarium.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_background_corner_radius = global::Plantarium.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_elevation = global::Plantarium.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Plantarium.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_max_width = global::Plantarium.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_min_width = global::Plantarium.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_padding_horizontal = global::Plantarium.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_padding_vertical = global::Plantarium.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Plantarium.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.Toasts.Resource.Dimension.design_snackbar_text_size = global::Plantarium.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.Toasts.Resource.Dimension.design_tab_max_width = global::Plantarium.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.Toasts.Resource.Dimension.design_tab_scrollable_min_width = global::Plantarium.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.Toasts.Resource.Dimension.design_tab_text_size = global::Plantarium.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.Toasts.Resource.Dimension.design_tab_text_size_2line = global::Plantarium.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.Toasts.Resource.Dimension.disabled_alpha_material_dark = global::Plantarium.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.Toasts.Resource.Dimension.disabled_alpha_material_light = global::Plantarium.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.Toasts.Resource.Dimension.highlight_alpha_material_colored = global::Plantarium.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.Toasts.Resource.Dimension.highlight_alpha_material_dark = global::Plantarium.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.Toasts.Resource.Dimension.highlight_alpha_material_light = global::Plantarium.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.Toasts.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Plantarium.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.Toasts.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Plantarium.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.Toasts.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Plantarium.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.Toasts.Resource.Dimension.notification_large_icon_height = global::Plantarium.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.Toasts.Resource.Dimension.notification_large_icon_width = global::Plantarium.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.Toasts.Resource.Dimension.notification_subtext_size = global::Plantarium.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.Toasts.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_action_bar_item_background_material = global::Plantarium.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_borderless_material = global::Plantarium.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_check_material = global::Plantarium.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Plantarium.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Plantarium.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_colored_material = global::Plantarium.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_default_mtrl_shape = global::Plantarium.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_radio_material = global::Plantarium.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Plantarium.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Plantarium.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Plantarium.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.Toasts.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Plantarium.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.Toasts.Resource.Drawable.abc_cab_background_internal_bg = global::Plantarium.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.Toasts.Resource.Drawable.abc_cab_background_top_material = global::Plantarium.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_control_background_material = global::Plantarium.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_edit_text_material = global::Plantarium.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_star_black_16dp = global::Plantarium.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_star_black_36dp = global::Plantarium.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_star_half_black_16dp = global::Plantarium.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.Toasts.Resource.Drawable.abc_ic_star_half_black_36dp = global::Plantarium.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.Toasts.Resource.Drawable.abc_item_background_holo_dark = global::Plantarium.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.Toasts.Resource.Drawable.abc_item_background_holo_light = global::Plantarium.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_focused_holo = global::Plantarium.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_longpressed_holo = global::Plantarium.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_pressed_holo_dark = global::Plantarium.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_pressed_holo_light = global::Plantarium.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_holo_dark = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.Toasts.Resource.Drawable.abc_list_selector_holo_light = global::Plantarium.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.Toasts.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Plantarium.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.Toasts.Resource.Drawable.abc_popup_background_mtrl_mult = global::Plantarium.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.Toasts.Resource.Drawable.abc_ratingbar_indicator_material = global::Plantarium.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_ratingbar_small_material = global::Plantarium.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Plantarium.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.Toasts.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Plantarium.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.Toasts.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_seekbar_thumb_material = global::Plantarium.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_seekbar_track_material = global::Plantarium.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Plantarium.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_spinner_textfield_background_material = global::Plantarium.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_switch_thumb_material = global::Plantarium.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_tab_indicator_material = global::Plantarium.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_text_cursor_material = global::Plantarium.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.Toasts.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Plantarium.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.Toasts.Resource.Drawable.abc_textfield_search_material = global::Plantarium.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.Toasts.Resource.Drawable.design_fab_background = global::Plantarium.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.Toasts.Resource.Drawable.design_snackbar_background = global::Plantarium.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.Toasts.Resource.Drawable.notification_template_icon_bg = global::Plantarium.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.Toasts.Resource.Id.action0 = global::Plantarium.Droid.Resource.Id.action0;
+			global::Plugin.Toasts.Resource.Id.action_bar = global::Plantarium.Droid.Resource.Id.action_bar;
+			global::Plugin.Toasts.Resource.Id.action_bar_activity_content = global::Plantarium.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.Toasts.Resource.Id.action_bar_container = global::Plantarium.Droid.Resource.Id.action_bar_container;
+			global::Plugin.Toasts.Resource.Id.action_bar_root = global::Plantarium.Droid.Resource.Id.action_bar_root;
+			global::Plugin.Toasts.Resource.Id.action_bar_spinner = global::Plantarium.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.Toasts.Resource.Id.action_bar_subtitle = global::Plantarium.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.Toasts.Resource.Id.action_bar_title = global::Plantarium.Droid.Resource.Id.action_bar_title;
+			global::Plugin.Toasts.Resource.Id.action_context_bar = global::Plantarium.Droid.Resource.Id.action_context_bar;
+			global::Plugin.Toasts.Resource.Id.action_divider = global::Plantarium.Droid.Resource.Id.action_divider;
+			global::Plugin.Toasts.Resource.Id.action_menu_divider = global::Plantarium.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.Toasts.Resource.Id.action_menu_presenter = global::Plantarium.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.Toasts.Resource.Id.action_mode_bar = global::Plantarium.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.Toasts.Resource.Id.action_mode_bar_stub = global::Plantarium.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.Toasts.Resource.Id.action_mode_close_button = global::Plantarium.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.Toasts.Resource.Id.activity_chooser_view_content = global::Plantarium.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.Toasts.Resource.Id.alertTitle = global::Plantarium.Droid.Resource.Id.alertTitle;
+			global::Plugin.Toasts.Resource.Id.always = global::Plantarium.Droid.Resource.Id.always;
+			global::Plugin.Toasts.Resource.Id.beginning = global::Plantarium.Droid.Resource.Id.beginning;
+			global::Plugin.Toasts.Resource.Id.bottom = global::Plantarium.Droid.Resource.Id.bottom;
+			global::Plugin.Toasts.Resource.Id.buttonPanel = global::Plantarium.Droid.Resource.Id.buttonPanel;
+			global::Plugin.Toasts.Resource.Id.cancel_action = global::Plantarium.Droid.Resource.Id.cancel_action;
+			global::Plugin.Toasts.Resource.Id.center = global::Plantarium.Droid.Resource.Id.center;
+			global::Plugin.Toasts.Resource.Id.center_horizontal = global::Plantarium.Droid.Resource.Id.center_horizontal;
+			global::Plugin.Toasts.Resource.Id.center_vertical = global::Plantarium.Droid.Resource.Id.center_vertical;
+			global::Plugin.Toasts.Resource.Id.checkbox = global::Plantarium.Droid.Resource.Id.checkbox;
+			global::Plugin.Toasts.Resource.Id.chronometer = global::Plantarium.Droid.Resource.Id.chronometer;
+			global::Plugin.Toasts.Resource.Id.clip_horizontal = global::Plantarium.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.Toasts.Resource.Id.clip_vertical = global::Plantarium.Droid.Resource.Id.clip_vertical;
+			global::Plugin.Toasts.Resource.Id.collapseActionView = global::Plantarium.Droid.Resource.Id.collapseActionView;
+			global::Plugin.Toasts.Resource.Id.contentPanel = global::Plantarium.Droid.Resource.Id.contentPanel;
+			global::Plugin.Toasts.Resource.Id.custom = global::Plantarium.Droid.Resource.Id.custom;
+			global::Plugin.Toasts.Resource.Id.customPanel = global::Plantarium.Droid.Resource.Id.customPanel;
+			global::Plugin.Toasts.Resource.Id.decor_content_parent = global::Plantarium.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.Toasts.Resource.Id.default_activity_button = global::Plantarium.Droid.Resource.Id.default_activity_button;
+			global::Plugin.Toasts.Resource.Id.design_bottom_sheet = global::Plantarium.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.Toasts.Resource.Id.design_menu_item_action_area = global::Plantarium.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.Toasts.Resource.Id.design_menu_item_action_area_stub = global::Plantarium.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.Toasts.Resource.Id.design_menu_item_text = global::Plantarium.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.Toasts.Resource.Id.design_navigation_view = global::Plantarium.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.Toasts.Resource.Id.disableHome = global::Plantarium.Droid.Resource.Id.disableHome;
+			global::Plugin.Toasts.Resource.Id.edit_query = global::Plantarium.Droid.Resource.Id.edit_query;
+			global::Plugin.Toasts.Resource.Id.end = global::Plantarium.Droid.Resource.Id.end;
+			global::Plugin.Toasts.Resource.Id.end_padder = global::Plantarium.Droid.Resource.Id.end_padder;
+			global::Plugin.Toasts.Resource.Id.enterAlways = global::Plantarium.Droid.Resource.Id.enterAlways;
+			global::Plugin.Toasts.Resource.Id.enterAlwaysCollapsed = global::Plantarium.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.Toasts.Resource.Id.exitUntilCollapsed = global::Plantarium.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.Toasts.Resource.Id.expand_activities_button = global::Plantarium.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.Toasts.Resource.Id.expanded_menu = global::Plantarium.Droid.Resource.Id.expanded_menu;
+			global::Plugin.Toasts.Resource.Id.fill = global::Plantarium.Droid.Resource.Id.fill;
+			global::Plugin.Toasts.Resource.Id.fill_horizontal = global::Plantarium.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.Toasts.Resource.Id.fill_vertical = global::Plantarium.Droid.Resource.Id.fill_vertical;
+			global::Plugin.Toasts.Resource.Id.@fixed = global::Plantarium.Droid.Resource.Id.@fixed;
+			global::Plugin.Toasts.Resource.Id.home = global::Plantarium.Droid.Resource.Id.home;
+			global::Plugin.Toasts.Resource.Id.homeAsUp = global::Plantarium.Droid.Resource.Id.homeAsUp;
+			global::Plugin.Toasts.Resource.Id.icon = global::Plantarium.Droid.Resource.Id.icon;
+			global::Plugin.Toasts.Resource.Id.ifRoom = global::Plantarium.Droid.Resource.Id.ifRoom;
+			global::Plugin.Toasts.Resource.Id.image = global::Plantarium.Droid.Resource.Id.image;
+			global::Plugin.Toasts.Resource.Id.info = global::Plantarium.Droid.Resource.Id.info;
+			global::Plugin.Toasts.Resource.Id.item_touch_helper_previous_elevation = global::Plantarium.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.Toasts.Resource.Id.left = global::Plantarium.Droid.Resource.Id.left;
+			global::Plugin.Toasts.Resource.Id.line1 = global::Plantarium.Droid.Resource.Id.line1;
+			global::Plugin.Toasts.Resource.Id.line3 = global::Plantarium.Droid.Resource.Id.line3;
+			global::Plugin.Toasts.Resource.Id.listMode = global::Plantarium.Droid.Resource.Id.listMode;
+			global::Plugin.Toasts.Resource.Id.list_item = global::Plantarium.Droid.Resource.Id.list_item;
+			global::Plugin.Toasts.Resource.Id.media_actions = global::Plantarium.Droid.Resource.Id.media_actions;
+			global::Plugin.Toasts.Resource.Id.middle = global::Plantarium.Droid.Resource.Id.middle;
+			global::Plugin.Toasts.Resource.Id.mini = global::Plantarium.Droid.Resource.Id.mini;
+			global::Plugin.Toasts.Resource.Id.multiply = global::Plantarium.Droid.Resource.Id.multiply;
+			global::Plugin.Toasts.Resource.Id.navigation_header_container = global::Plantarium.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.Toasts.Resource.Id.never = global::Plantarium.Droid.Resource.Id.never;
+			global::Plugin.Toasts.Resource.Id.none = global::Plantarium.Droid.Resource.Id.none;
+			global::Plugin.Toasts.Resource.Id.normal = global::Plantarium.Droid.Resource.Id.normal;
+			global::Plugin.Toasts.Resource.Id.parallax = global::Plantarium.Droid.Resource.Id.parallax;
+			global::Plugin.Toasts.Resource.Id.parentPanel = global::Plantarium.Droid.Resource.Id.parentPanel;
+			global::Plugin.Toasts.Resource.Id.pin = global::Plantarium.Droid.Resource.Id.pin;
+			global::Plugin.Toasts.Resource.Id.progress_circular = global::Plantarium.Droid.Resource.Id.progress_circular;
+			global::Plugin.Toasts.Resource.Id.progress_horizontal = global::Plantarium.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.Toasts.Resource.Id.radio = global::Plantarium.Droid.Resource.Id.radio;
+			global::Plugin.Toasts.Resource.Id.right = global::Plantarium.Droid.Resource.Id.right;
+			global::Plugin.Toasts.Resource.Id.screen = global::Plantarium.Droid.Resource.Id.screen;
+			global::Plugin.Toasts.Resource.Id.scroll = global::Plantarium.Droid.Resource.Id.scroll;
+			global::Plugin.Toasts.Resource.Id.scrollIndicatorDown = global::Plantarium.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.Toasts.Resource.Id.scrollIndicatorUp = global::Plantarium.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.Toasts.Resource.Id.scrollView = global::Plantarium.Droid.Resource.Id.scrollView;
+			global::Plugin.Toasts.Resource.Id.scrollable = global::Plantarium.Droid.Resource.Id.scrollable;
+			global::Plugin.Toasts.Resource.Id.search_badge = global::Plantarium.Droid.Resource.Id.search_badge;
+			global::Plugin.Toasts.Resource.Id.search_bar = global::Plantarium.Droid.Resource.Id.search_bar;
+			global::Plugin.Toasts.Resource.Id.search_button = global::Plantarium.Droid.Resource.Id.search_button;
+			global::Plugin.Toasts.Resource.Id.search_close_btn = global::Plantarium.Droid.Resource.Id.search_close_btn;
+			global::Plugin.Toasts.Resource.Id.search_edit_frame = global::Plantarium.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.Toasts.Resource.Id.search_go_btn = global::Plantarium.Droid.Resource.Id.search_go_btn;
+			global::Plugin.Toasts.Resource.Id.search_mag_icon = global::Plantarium.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.Toasts.Resource.Id.search_plate = global::Plantarium.Droid.Resource.Id.search_plate;
+			global::Plugin.Toasts.Resource.Id.search_src_text = global::Plantarium.Droid.Resource.Id.search_src_text;
+			global::Plugin.Toasts.Resource.Id.search_voice_btn = global::Plantarium.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.Toasts.Resource.Id.select_dialog_listview = global::Plantarium.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.Toasts.Resource.Id.shortcut = global::Plantarium.Droid.Resource.Id.shortcut;
+			global::Plugin.Toasts.Resource.Id.showCustom = global::Plantarium.Droid.Resource.Id.showCustom;
+			global::Plugin.Toasts.Resource.Id.showHome = global::Plantarium.Droid.Resource.Id.showHome;
+			global::Plugin.Toasts.Resource.Id.showTitle = global::Plantarium.Droid.Resource.Id.showTitle;
+			global::Plugin.Toasts.Resource.Id.snackbar_action = global::Plantarium.Droid.Resource.Id.snackbar_action;
+			global::Plugin.Toasts.Resource.Id.snackbar_text = global::Plantarium.Droid.Resource.Id.snackbar_text;
+			global::Plugin.Toasts.Resource.Id.snap = global::Plantarium.Droid.Resource.Id.snap;
+			global::Plugin.Toasts.Resource.Id.spacer = global::Plantarium.Droid.Resource.Id.spacer;
+			global::Plugin.Toasts.Resource.Id.split_action_bar = global::Plantarium.Droid.Resource.Id.split_action_bar;
+			global::Plugin.Toasts.Resource.Id.src_atop = global::Plantarium.Droid.Resource.Id.src_atop;
+			global::Plugin.Toasts.Resource.Id.src_in = global::Plantarium.Droid.Resource.Id.src_in;
+			global::Plugin.Toasts.Resource.Id.src_over = global::Plantarium.Droid.Resource.Id.src_over;
+			global::Plugin.Toasts.Resource.Id.start = global::Plantarium.Droid.Resource.Id.start;
+			global::Plugin.Toasts.Resource.Id.status_bar_latest_event_content = global::Plantarium.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.Toasts.Resource.Id.submit_area = global::Plantarium.Droid.Resource.Id.submit_area;
+			global::Plugin.Toasts.Resource.Id.tabMode = global::Plantarium.Droid.Resource.Id.tabMode;
+			global::Plugin.Toasts.Resource.Id.text = global::Plantarium.Droid.Resource.Id.text;
+			global::Plugin.Toasts.Resource.Id.text2 = global::Plantarium.Droid.Resource.Id.text2;
+			global::Plugin.Toasts.Resource.Id.textSpacerNoButtons = global::Plantarium.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.Toasts.Resource.Id.time = global::Plantarium.Droid.Resource.Id.time;
+			global::Plugin.Toasts.Resource.Id.title = global::Plantarium.Droid.Resource.Id.title;
+			global::Plugin.Toasts.Resource.Id.title_template = global::Plantarium.Droid.Resource.Id.title_template;
+			global::Plugin.Toasts.Resource.Id.top = global::Plantarium.Droid.Resource.Id.top;
+			global::Plugin.Toasts.Resource.Id.topPanel = global::Plantarium.Droid.Resource.Id.topPanel;
+			global::Plugin.Toasts.Resource.Id.touch_outside = global::Plantarium.Droid.Resource.Id.touch_outside;
+			global::Plugin.Toasts.Resource.Id.up = global::Plantarium.Droid.Resource.Id.up;
+			global::Plugin.Toasts.Resource.Id.useLogo = global::Plantarium.Droid.Resource.Id.useLogo;
+			global::Plugin.Toasts.Resource.Id.view_offset_helper = global::Plantarium.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.Toasts.Resource.Id.withText = global::Plantarium.Droid.Resource.Id.withText;
+			global::Plugin.Toasts.Resource.Id.wrap_content = global::Plantarium.Droid.Resource.Id.wrap_content;
+			global::Plugin.Toasts.Resource.Integer.abc_config_activityDefaultDur = global::Plantarium.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.Toasts.Resource.Integer.abc_config_activityShortDur = global::Plantarium.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.Toasts.Resource.Integer.bottom_sheet_slide_duration = global::Plantarium.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.Toasts.Resource.Integer.cancel_button_image_alpha = global::Plantarium.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.Toasts.Resource.Integer.design_snackbar_text_max_lines = global::Plantarium.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.Toasts.Resource.Integer.status_bar_notification_info_maxnum = global::Plantarium.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.Toasts.Resource.Layout.abc_action_bar_title_item = global::Plantarium.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.Toasts.Resource.Layout.abc_action_bar_up_container = global::Plantarium.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.Toasts.Resource.Layout.abc_action_menu_item_layout = global::Plantarium.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.Toasts.Resource.Layout.abc_action_menu_layout = global::Plantarium.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.Toasts.Resource.Layout.abc_action_mode_bar = global::Plantarium.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.Toasts.Resource.Layout.abc_action_mode_close_item_material = global::Plantarium.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.Toasts.Resource.Layout.abc_activity_chooser_view = global::Plantarium.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.Toasts.Resource.Layout.abc_activity_chooser_view_list_item = global::Plantarium.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.Toasts.Resource.Layout.abc_alert_dialog_button_bar_material = global::Plantarium.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.Toasts.Resource.Layout.abc_alert_dialog_material = global::Plantarium.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.Toasts.Resource.Layout.abc_dialog_title_material = global::Plantarium.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.Toasts.Resource.Layout.abc_expanded_menu_layout = global::Plantarium.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.Toasts.Resource.Layout.abc_list_menu_item_checkbox = global::Plantarium.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.Toasts.Resource.Layout.abc_list_menu_item_icon = global::Plantarium.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.Toasts.Resource.Layout.abc_list_menu_item_layout = global::Plantarium.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.Toasts.Resource.Layout.abc_list_menu_item_radio = global::Plantarium.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.Toasts.Resource.Layout.abc_popup_menu_item_layout = global::Plantarium.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.Toasts.Resource.Layout.abc_screen_content_include = global::Plantarium.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.Toasts.Resource.Layout.abc_screen_simple = global::Plantarium.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.Toasts.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Plantarium.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.Toasts.Resource.Layout.abc_screen_toolbar = global::Plantarium.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.Toasts.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Plantarium.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.Toasts.Resource.Layout.abc_search_view = global::Plantarium.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.Toasts.Resource.Layout.abc_select_dialog_material = global::Plantarium.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.Toasts.Resource.Layout.design_bottom_sheet_dialog = global::Plantarium.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.Toasts.Resource.Layout.design_layout_snackbar = global::Plantarium.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.Toasts.Resource.Layout.design_layout_snackbar_include = global::Plantarium.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.Toasts.Resource.Layout.design_layout_tab_icon = global::Plantarium.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.Toasts.Resource.Layout.design_layout_tab_text = global::Plantarium.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.Toasts.Resource.Layout.design_menu_item_action_area = global::Plantarium.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_item = global::Plantarium.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_item_header = global::Plantarium.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_item_separator = global::Plantarium.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_item_subheader = global::Plantarium.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_menu = global::Plantarium.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.Toasts.Resource.Layout.design_navigation_menu_item = global::Plantarium.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.Toasts.Resource.Layout.notification_media_action = global::Plantarium.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.Toasts.Resource.Layout.notification_media_cancel_action = global::Plantarium.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.Toasts.Resource.Layout.notification_template_big_media = global::Plantarium.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.Toasts.Resource.Layout.notification_template_big_media_narrow = global::Plantarium.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.Toasts.Resource.Layout.notification_template_media = global::Plantarium.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.Toasts.Resource.Layout.notification_template_part_chronometer = global::Plantarium.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.Toasts.Resource.Layout.notification_template_part_time = global::Plantarium.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.Toasts.Resource.Layout.select_dialog_item_material = global::Plantarium.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.Toasts.Resource.Layout.select_dialog_multichoice_material = global::Plantarium.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.Toasts.Resource.Layout.select_dialog_singlechoice_material = global::Plantarium.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.Toasts.Resource.Layout.support_simple_spinner_dropdown_item = global::Plantarium.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.Toasts.Resource.String.ApplicationName = global::Plantarium.Droid.Resource.String.ApplicationName;
+			global::Plugin.Toasts.Resource.String.Hello = global::Plantarium.Droid.Resource.String.Hello;
+			global::Plugin.Toasts.Resource.String.abc_action_bar_home_description = global::Plantarium.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.Toasts.Resource.String.abc_action_bar_up_description = global::Plantarium.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.Toasts.Resource.String.abc_action_menu_overflow_description = global::Plantarium.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.Toasts.Resource.String.abc_action_mode_done = global::Plantarium.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.Toasts.Resource.String.abc_activity_chooser_view_see_all = global::Plantarium.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.Toasts.Resource.String.abc_activitychooserview_choose_application = global::Plantarium.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.Toasts.Resource.String.abc_capital_off = global::Plantarium.Droid.Resource.String.abc_capital_off;
+			global::Plugin.Toasts.Resource.String.abc_capital_on = global::Plantarium.Droid.Resource.String.abc_capital_on;
+			global::Plugin.Toasts.Resource.String.abc_search_hint = global::Plantarium.Droid.Resource.String.abc_search_hint;
+			global::Plugin.Toasts.Resource.String.abc_searchview_description_clear = global::Plantarium.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.Toasts.Resource.String.abc_searchview_description_query = global::Plantarium.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.Toasts.Resource.String.abc_searchview_description_search = global::Plantarium.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.Toasts.Resource.String.abc_searchview_description_submit = global::Plantarium.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.Toasts.Resource.String.abc_searchview_description_voice = global::Plantarium.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.Toasts.Resource.String.abc_shareactionprovider_share_with = global::Plantarium.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.Toasts.Resource.String.abc_shareactionprovider_share_with_application = global::Plantarium.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.Toasts.Resource.String.abc_toolbar_collapse_description = global::Plantarium.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.Toasts.Resource.String.appbar_scrolling_view_behavior = global::Plantarium.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.Toasts.Resource.String.bottom_sheet_behavior = global::Plantarium.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.Toasts.Resource.String.character_counter_pattern = global::Plantarium.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.Toasts.Resource.String.status_bar_notification_info_overflow = global::Plantarium.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.Toasts.Resource.Style.AlertDialog_AppCompat = global::Plantarium.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.Toasts.Resource.Style.AlertDialog_AppCompat_Light = global::Plantarium.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Animation_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Animation_AppCompat_DropDownUp = global::Plantarium.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.Toasts.Resource.Style.Animation_Design_BottomSheetDialog = global::Plantarium.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.Toasts.Resource.Style.Base_AlertDialog_AppCompat = global::Plantarium.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_Animation_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Plantarium.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.Toasts.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Plantarium.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Plantarium.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.Toasts.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Plantarium.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.Toasts.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Plantarium.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.Toasts.Resource.Style.Base_ThemeOverlay_AppCompat = global::Plantarium.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Plantarium.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Plantarium.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Toasts.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Plantarium.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_V21_Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Plantarium.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_V22_Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_V23_Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Plantarium.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Plantarium.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Toasts.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Plantarium.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_EditText = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ListView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_SearchView = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Spinner = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Plantarium.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.Toasts.Resource.Style.Base_Widget_Design_TabLayout = global::Plantarium.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.Toasts.Resource.Style.Platform_AppCompat = global::Plantarium.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Platform_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Plantarium.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Plantarium.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Toasts.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Plantarium.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Plantarium.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.Toasts.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Plantarium.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.Toasts.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Plantarium.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.Toasts.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Plantarium.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Body1 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Body2 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Button = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Caption = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Display1 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Display2 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Display3 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Display4 = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Headline = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Large = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Medium = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Menu = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Small = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Subhead = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Plantarium.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Counter = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Error = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Hint = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Design_Tab = global::Plantarium.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Plantarium.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Plantarium.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.Toasts.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Plantarium.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat = global::Plantarium.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_CompactMenu = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Dialog = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_Dialog = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_AppCompat_NoActionBar = global::Plantarium.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_Design = global::Plantarium.Droid.Resource.Style.Theme_Design;
+			global::Plugin.Toasts.Resource.Style.Theme_Design_BottomSheetDialog = global::Plantarium.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.Toasts.Resource.Style.Theme_Design_Light = global::Plantarium.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.Toasts.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Plantarium.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.Toasts.Resource.Style.Theme_Design_Light_NoActionBar = global::Plantarium.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.Toasts.Resource.Style.Theme_Design_NoActionBar = global::Plantarium.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.Toasts.Resource.Style.ThemeOverlay_AppCompat = global::Plantarium.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.Toasts.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Plantarium.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.Toasts.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Plantarium.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.Toasts.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Plantarium.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.Toasts.Resource.Style.ThemeOverlay_AppCompat_Light = global::Plantarium.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionButton = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActionMode = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button_Borderless = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button_Colored = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Button_Small = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ButtonBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_EditText = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ImageButton = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_SearchView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ListView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ListView_Menu = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_PopupMenu = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_PopupWindow = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ProgressBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_RatingBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_SearchView = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_SeekBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Spinner = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Toolbar = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.Toasts.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Plantarium.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_AppBarLayout = global::Plantarium.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_BottomSheet_Modal = global::Plantarium.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_CollapsingToolbar = global::Plantarium.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_FloatingActionButton = global::Plantarium.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_NavigationView = global::Plantarium.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Plantarium.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_Snackbar = global::Plantarium.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_TabLayout = global::Plantarium.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.Toasts.Resource.Style.Widget_Design_TextInputLayout = global::Plantarium.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar = global::Plantarium.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_background = global::Plantarium.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_backgroundSplit = global::Plantarium.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_backgroundStacked = global::Plantarium.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_contentInsetEnd = global::Plantarium.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_contentInsetLeft = global::Plantarium.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_contentInsetRight = global::Plantarium.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_contentInsetStart = global::Plantarium.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_customNavigationLayout = global::Plantarium.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_displayOptions = global::Plantarium.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_divider = global::Plantarium.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_elevation = global::Plantarium.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_height = global::Plantarium.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_hideOnContentScroll = global::Plantarium.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Plantarium.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_homeLayout = global::Plantarium.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_icon = global::Plantarium.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Plantarium.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_itemPadding = global::Plantarium.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_logo = global::Plantarium.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_navigationMode = global::Plantarium.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_popupTheme = global::Plantarium.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_progressBarPadding = global::Plantarium.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_progressBarStyle = global::Plantarium.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_subtitle = global::Plantarium.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_subtitleTextStyle = global::Plantarium.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_title = global::Plantarium.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.Toasts.Resource.Styleable.ActionBar_titleTextStyle = global::Plantarium.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActionBarLayout = global::Plantarium.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.Toasts.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Plantarium.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.Toasts.Resource.Styleable.ActionMenuItemView = global::Plantarium.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.Toasts.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Plantarium.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.Toasts.Resource.Styleable.ActionMenuView = global::Plantarium.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode = global::Plantarium.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_background = global::Plantarium.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_backgroundSplit = global::Plantarium.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_closeItemLayout = global::Plantarium.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_height = global::Plantarium.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_subtitleTextStyle = global::Plantarium.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActionMode_titleTextStyle = global::Plantarium.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.ActivityChooserView = global::Plantarium.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.Toasts.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Plantarium.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.Toasts.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Plantarium.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog = global::Plantarium.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_android_layout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_listItemLayout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_listLayout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.Toasts.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Plantarium.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.Toasts.Resource.Styleable.AppBarLayout = global::Plantarium.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.Toasts.Resource.Styleable.AppBarLayout_android_background = global::Plantarium.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.Toasts.Resource.Styleable.AppBarLayout_elevation = global::Plantarium.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.Toasts.Resource.Styleable.AppBarLayout_expanded = global::Plantarium.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatImageView = global::Plantarium.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatImageView_android_src = global::Plantarium.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatImageView_srcCompat = global::Plantarium.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTextView = global::Plantarium.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Plantarium.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTextView_textAllCaps = global::Plantarium.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarSize = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorAccent = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorPrimary = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_controlBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dialogTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dividerVertical = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_editTextBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_editTextColor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_editTextStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_panelBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_switchStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowActionBar = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.Toasts.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Plantarium.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.Toasts.Resource.Styleable.ButtonBarLayout = global::Plantarium.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.Toasts.Resource.Styleable.ButtonBarLayout_allowStacking = global::Plantarium.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_title = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.Toasts.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Plantarium.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.Toasts.Resource.Styleable.CompoundButton = global::Plantarium.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.Toasts.Resource.Styleable.CompoundButton_android_button = global::Plantarium.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.Toasts.Resource.Styleable.CompoundButton_buttonTint = global::Plantarium.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.Toasts.Resource.Styleable.CompoundButton_buttonTintMode = global::Plantarium.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.Toasts.Resource.Styleable.CoordinatorLayout = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.Toasts.Resource.Styleable.CoordinatorLayout_keylines = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.Toasts.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Plantarium.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.Toasts.Resource.Styleable.DesignTheme = global::Plantarium.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.Toasts.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Plantarium.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.Toasts.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Plantarium.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_barLength = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_color = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_spinBars = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.Toasts.Resource.Styleable.DrawerArrowToggle_thickness = global::Plantarium.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_backgroundTint = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_borderWidth = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_elevation = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_fabSize = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_rippleColor = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.Toasts.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Plantarium.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.Toasts.Resource.Styleable.ForegroundLinearLayout = global::Plantarium.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.Toasts.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Plantarium.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.Toasts.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Plantarium.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.Toasts.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Plantarium.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_divider = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_showDividers = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_Layout = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.Toasts.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Plantarium.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.Toasts.Resource.Styleable.ListPopupWindow = global::Plantarium.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.Toasts.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Plantarium.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.Toasts.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Plantarium.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup = global::Plantarium.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_enabled = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_id = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_menuCategory = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_orderInCategory = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.Toasts.Resource.Styleable.MenuGroup_android_visible = global::Plantarium.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem = global::Plantarium.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_actionLayout = global::Plantarium.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_actionProviderClass = global::Plantarium.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_actionViewClass = global::Plantarium.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_checkable = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_checked = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_enabled = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_icon = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_id = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_menuCategory = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_numericShortcut = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_onClick = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_orderInCategory = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_title = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_titleCondensed = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_android_visible = global::Plantarium.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.Toasts.Resource.Styleable.MenuItem_showAsAction = global::Plantarium.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.Toasts.Resource.Styleable.MenuView = global::Plantarium.Droid.Resource.Styleable.MenuView;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_headerBackground = global::Plantarium.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_horizontalDivider = global::Plantarium.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_itemBackground = global::Plantarium.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Plantarium.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_itemTextAppearance = global::Plantarium.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_verticalDivider = global::Plantarium.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Plantarium.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.Toasts.Resource.Styleable.MenuView_preserveIconSpacing = global::Plantarium.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView = global::Plantarium.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_android_background = global::Plantarium.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Plantarium.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_android_maxWidth = global::Plantarium.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_elevation = global::Plantarium.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_headerLayout = global::Plantarium.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_itemBackground = global::Plantarium.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_itemIconTint = global::Plantarium.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_itemTextAppearance = global::Plantarium.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_itemTextColor = global::Plantarium.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.Toasts.Resource.Styleable.NavigationView_menu = global::Plantarium.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.Toasts.Resource.Styleable.PopupWindow = global::Plantarium.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.Toasts.Resource.Styleable.PopupWindow_android_popupBackground = global::Plantarium.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.Toasts.Resource.Styleable.PopupWindow_overlapAnchor = global::Plantarium.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.Toasts.Resource.Styleable.PopupWindowBackgroundState = global::Plantarium.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.Toasts.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Plantarium.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView = global::Plantarium.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView_android_orientation = global::Plantarium.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView_layoutManager = global::Plantarium.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView_reverseLayout = global::Plantarium.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView_spanCount = global::Plantarium.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.Toasts.Resource.Styleable.RecyclerView_stackFromEnd = global::Plantarium.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.Toasts.Resource.Styleable.ScrimInsetsFrameLayout = global::Plantarium.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.Toasts.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Plantarium.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.Toasts.Resource.Styleable.SearchView = global::Plantarium.Droid.Resource.Styleable.SearchView;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_android_focusable = global::Plantarium.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_android_imeOptions = global::Plantarium.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_android_inputType = global::Plantarium.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_android_maxWidth = global::Plantarium.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_closeIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_commitIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_defaultQueryHint = global::Plantarium.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_goIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_iconifiedByDefault = global::Plantarium.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_layout = global::Plantarium.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_queryBackground = global::Plantarium.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_queryHint = global::Plantarium.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_searchHintIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_searchIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_submitBackground = global::Plantarium.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_suggestionRowLayout = global::Plantarium.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.Toasts.Resource.Styleable.SearchView_voiceIcon = global::Plantarium.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.Toasts.Resource.Styleable.SnackbarLayout = global::Plantarium.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.Toasts.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Plantarium.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.Toasts.Resource.Styleable.SnackbarLayout_elevation = global::Plantarium.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.Toasts.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Plantarium.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.Toasts.Resource.Styleable.Spinner = global::Plantarium.Droid.Resource.Styleable.Spinner;
+			global::Plugin.Toasts.Resource.Styleable.Spinner_android_dropDownWidth = global::Plantarium.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.Toasts.Resource.Styleable.Spinner_android_entries = global::Plantarium.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.Toasts.Resource.Styleable.Spinner_android_popupBackground = global::Plantarium.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.Toasts.Resource.Styleable.Spinner_android_prompt = global::Plantarium.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.Toasts.Resource.Styleable.Spinner_popupTheme = global::Plantarium.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat = global::Plantarium.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_android_textOff = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_android_textOn = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_android_thumb = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_showText = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_splitTrack = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_switchMinWidth = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_switchPadding = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.Toasts.Resource.Styleable.SwitchCompat_track = global::Plantarium.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.Toasts.Resource.Styleable.TabItem = global::Plantarium.Droid.Resource.Styleable.TabItem;
+			global::Plugin.Toasts.Resource.Styleable.TabItem_android_icon = global::Plantarium.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.Toasts.Resource.Styleable.TabItem_android_layout = global::Plantarium.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.Toasts.Resource.Styleable.TabItem_android_text = global::Plantarium.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout = global::Plantarium.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabBackground = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabContentStart = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabGravity = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabIndicatorColor = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabMaxWidth = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabMinWidth = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabMode = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabPadding = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabPaddingBottom = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabPaddingEnd = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabPaddingStart = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabPaddingTop = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabTextAppearance = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.TabLayout_tabTextColor = global::Plantarium.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance = global::Plantarium.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_shadowColor = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_shadowDx = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_shadowDy = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_shadowRadius = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_textColor = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_textSize = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_textStyle = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_android_typeface = global::Plantarium.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.Toasts.Resource.Styleable.TextAppearance_textAllCaps = global::Plantarium.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout = global::Plantarium.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_android_hint = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_android_textColorHint = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_counterEnabled = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_counterMaxLength = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_errorEnabled = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_hintEnabled = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.Toasts.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Plantarium.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar = global::Plantarium.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_android_gravity = global::Plantarium.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_android_minHeight = global::Plantarium.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_collapseContentDescription = global::Plantarium.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_collapseIcon = global::Plantarium.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_contentInsetEnd = global::Plantarium.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_contentInsetLeft = global::Plantarium.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_contentInsetRight = global::Plantarium.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_contentInsetStart = global::Plantarium.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_logo = global::Plantarium.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_logoDescription = global::Plantarium.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_maxButtonHeight = global::Plantarium.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_navigationContentDescription = global::Plantarium.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_navigationIcon = global::Plantarium.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_popupTheme = global::Plantarium.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_subtitle = global::Plantarium.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Plantarium.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_subtitleTextColor = global::Plantarium.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_title = global::Plantarium.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleMarginBottom = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleMarginEnd = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleMarginStart = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleMarginTop = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleMargins = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleTextAppearance = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.Toasts.Resource.Styleable.Toolbar_titleTextColor = global::Plantarium.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.Toasts.Resource.Styleable.View = global::Plantarium.Droid.Resource.Styleable.View;
+			global::Plugin.Toasts.Resource.Styleable.View_android_focusable = global::Plantarium.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.Toasts.Resource.Styleable.View_android_theme = global::Plantarium.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.Toasts.Resource.Styleable.View_paddingEnd = global::Plantarium.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.Toasts.Resource.Styleable.View_paddingStart = global::Plantarium.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.Toasts.Resource.Styleable.View_theme = global::Plantarium.Droid.Resource.Styleable.View_theme;
+			global::Plugin.Toasts.Resource.Styleable.ViewBackgroundHelper = global::Plantarium.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.Toasts.Resource.Styleable.ViewBackgroundHelper_android_background = global::Plantarium.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.Toasts.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Plantarium.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.Toasts.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Plantarium.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.Toasts.Resource.Styleable.ViewStubCompat = global::Plantarium.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.Toasts.Resource.Styleable.ViewStubCompat_android_id = global::Plantarium.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.Toasts.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Plantarium.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.Toasts.Resource.Styleable.ViewStubCompat_android_layout = global::Plantarium.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Plantarium.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Plantarium.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Plantarium.Droid.Resource.Attribute.font;
@@ -8277,100 +9956,109 @@ namespace Plantarium.Droid
 			public const int abc_vector_test = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int avd_hide_password = 2131165274;
+			public const int Alarm = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int avd_show_password = 2131165275;
+			public const int avd_hide_password = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int design_bottom_navigation_item_background = 2131165276;
+			public const int avd_show_password = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int design_fab_background = 2131165277;
+			public const int banner = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int design_ic_visibility = 2131165278;
+			public const int design_bottom_navigation_item_background = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int design_ic_visibility_off = 2131165279;
+			public const int design_fab_background = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_password_eye = 2131165280;
+			public const int design_ic_visibility = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_snackbar_background = 2131165281;
+			public const int design_ic_visibility_off = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int design_password_eye = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int design_snackbar_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_mtrl_chip_checked_black = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int leaflogo = 2131165285;
+			public const int ic_mtrl_chip_checked_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int Logout = 2131165286;
+			public const int ic_mtrl_chip_close_circle = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int mtrl_snackbar_background = 2131165287;
+			public const int leaflogo = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int mtrl_tabs_default_indicator = 2131165288;
+			public const int Logout = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int navigation_empty_icon = 2131165289;
+			public const int mtrl_snackbar_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_action_background = 2131165290;
+			public const int mtrl_tabs_default_indicator = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg = 2131165291;
+			public const int navigation_empty_icon = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low = 2131165292;
+			public const int notification_action_background = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_low_normal = 2131165293;
+			public const int notification_bg = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_low_pressed = 2131165294;
+			public const int notification_bg_low = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_bg_normal = 2131165295;
+			public const int notification_bg_low_normal = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_bg_normal_pressed = 2131165296;
+			public const int notification_bg_low_pressed = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_icon_background = 2131165297;
+			public const int notification_bg_normal = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_template_icon_bg = 2131165298;
+			public const int notification_bg_normal_pressed = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_template_icon_low_bg = 2131165299;
+			public const int notification_icon_background = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_tile_bg = 2131165300;
+			public const int notification_template_icon_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notify_panel_notification_icon_bg = 2131165301;
+			public const int notification_template_icon_low_bg = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int PlantariumLogo = 2131165302;
+			public const int notification_tile_bg = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int Sapling = 2131165303;
+			public const int notify_panel_notification_icon_bg = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int tooltip_frame_dark = 2131165304;
+			public const int PlantariumLogo = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int tooltip_frame_light = 2131165305;
+			public const int plugin_lc_smallicon = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int Sapling = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int tooltip_frame_dark = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int tooltip_frame_light = 2131165308;
 			
 			static Drawable()
 			{
@@ -9350,167 +11038,173 @@ namespace Plantarium.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
-			
-			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
-			
 			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
+			public const int abc_action_bar_home_description = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
-			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			public const int abc_action_bar_up_description = 2131558403;
 			
 			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			public const int abc_action_menu_overflow_description = 2131558404;
 			
-			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
+			// aapt resource value: 0x7F0D0005
+			public const int abc_action_mode_done = 2131558405;
 			
 			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			public const int abc_activitychooserview_choose_application = 2131558407;
+			
+			// aapt resource value: 0x7F0D0006
+			public const int abc_activity_chooser_view_see_all = 2131558406;
 			
 			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			public const int abc_capital_off = 2131558408;
 			
 			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			public const int abc_capital_on = 2131558409;
 			
 			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			public const int abc_font_family_body_1_material = 2131558410;
 			
 			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			public const int abc_font_family_body_2_material = 2131558411;
 			
 			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			public const int abc_font_family_button_material = 2131558412;
 			
 			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			public const int abc_font_family_caption_material = 2131558413;
 			
 			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			public const int abc_font_family_display_1_material = 2131558414;
 			
 			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			public const int abc_font_family_display_2_material = 2131558415;
 			
 			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			public const int abc_font_family_display_3_material = 2131558416;
 			
 			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			public const int abc_font_family_display_4_material = 2131558417;
 			
 			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			public const int abc_font_family_headline_material = 2131558418;
 			
 			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			public const int abc_font_family_menu_material = 2131558419;
 			
 			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			public const int abc_font_family_subhead_material = 2131558420;
 			
 			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			public const int abc_font_family_title_material = 2131558421;
 			
 			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			public const int abc_menu_alt_shortcut_label = 2131558422;
 			
 			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			public const int abc_menu_ctrl_shortcut_label = 2131558423;
 			
 			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			public const int abc_menu_delete_shortcut_label = 2131558424;
 			
 			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			public const int abc_menu_enter_shortcut_label = 2131558425;
 			
 			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			public const int abc_menu_function_shortcut_label = 2131558426;
 			
 			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			public const int abc_menu_meta_shortcut_label = 2131558427;
 			
 			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			public const int abc_menu_shift_shortcut_label = 2131558428;
 			
 			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
-			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
-			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			public const int abc_menu_space_shortcut_label = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			public const int abc_menu_sym_shortcut_label = 2131558430;
+			
+			// aapt resource value: 0x7F0D001F
+			public const int abc_prepend_shortcut_label = 2131558431;
+			
+			// aapt resource value: 0x7F0D0021
+			public const int abc_searchview_description_clear = 2131558433;
+			
+			// aapt resource value: 0x7F0D0022
+			public const int abc_searchview_description_query = 2131558434;
+			
+			// aapt resource value: 0x7F0D0023
+			public const int abc_searchview_description_search = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			public const int abc_searchview_description_submit = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			public const int abc_searchview_description_voice = 2131558437;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int abc_search_hint = 2131558432;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			public const int abc_shareactionprovider_share_with = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
+			public const int abc_shareactionprovider_share_with_application = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			public const int abc_toolbar_collapse_description = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			public const int appbar_scrolling_view_behavior = 2131558441;
+			
+			// aapt resource value: 0x7F0D0000
+			public const int ApplicationName = 2131558400;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			public const int bottom_sheet_behavior = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			public const int character_counter_content_description = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			public const int character_counter_pattern = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int fab_transformation_scrim_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int fab_transformation_sheet_behavior = 2131558446;
+			
+			// aapt resource value: 0x7F0D0001
+			public const int Hello = 2131558401;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			public const int mtrl_chip_close_icon_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			public const int password_toggle_content_description = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			public const int path_password_eye = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			public const int path_password_eye_mask_strike_through = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			public const int path_password_eye_mask_visible = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			public const int path_password_strike_through = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int search_menu_title = 2131558454;
+			
+			// aapt resource value: 0x7F0D0037
+			public const int status_bar_notification_info_overflow = 2131558455;
 			
 			static String()
 			{
@@ -13996,7 +15690,10 @@ namespace Plantarium.Droid
 		{
 			
 			// aapt resource value: 0x7F100000
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			public const int file_paths = 2131755008;
+			
+			// aapt resource value: 0x7F100001
+			public const int xamarin_essentials_fileprovider_file_paths = 2131755009;
 			
 			static Xml()
 			{
