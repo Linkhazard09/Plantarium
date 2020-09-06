@@ -73,10 +73,10 @@
                     </ListView.ItemTemplate>
                     <ListView.Footer>
                         <StackLayout Orientation="Horizontal" Padding="10,10">
-                            <Frame CornerRadius="10" IsClippedToBounds="True" HorizontalOptions="Start" HasShadow="True" BorderColor="Black">
+                            <Frame>
                                 <Entry x:Name="AddCommentEntry" HorizontalOptions="StartAndExpand" WidthRequest="250" HeightRequest="50" Placeholder="Enter Comment"></Entry>
                            </Frame>
-                            <Button x:Name="Enter" Text="Enter" CornerRadius="10" HorizontalOptions="End"  BackgroundColor="Green" TextColor="White" Clicked="Enter_Clicked"></Button>
+                            <Button x:Name="Enter" Text="Enter"  HorizontalOptions="End"  Clicked="Enter_Clicked"></Button>
                             
                         </StackLayout>
                      </ListView.Footer>

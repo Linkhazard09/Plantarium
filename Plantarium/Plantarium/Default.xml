@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="Plantarium.Default">
+  <Color x:Key="AppBackgroundColor">White</Color>
+  <Color x:Key="AppLabelColor">Black</Color>
+  <Color x:Key="DarkAppBackgroundColor">White</Color>
+  <Color x:Key="DarkAppLabelColor">White</Color>
+  <Color x:Key="AppButtonColor">Green</Color>
+  <Color x:Key="DarkAppButtonColor">LightGreen</Color>
+  <Color x:Key="AppButtonTextColor">WhiteSmoke</Color>
+  <Color x:Key="DarkAppButtonTextColor">Black</Color>
+</ResourceDictionary>
+

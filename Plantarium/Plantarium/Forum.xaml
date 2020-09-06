@@ -3,11 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Plantarium.Forum"
              Title="Forums"
+             BackgroundColor="{DynamicResource AppBackgroundColor}"
+               NavigationPage.HasBackButton="False"
              >
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="0,0,10,0">
-                <ListView x:Name="ForumListview" ItemTapped="ForumListview_ItemTapped"  ItemsSource="{Binding GetForum}" HasUnevenRows="True">
+                <ListView x:Name="ForumListview" BackgroundColor="{DynamicResource AppBackgroundColor}" ItemTapped="ForumListview_ItemTapped"  ItemsSource="{Binding GetForum}" HasUnevenRows="True">
+                    <ListView.Header>
+                        <Button x:Name="AddForumButton" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}" Clicked="AddForumButton_Clicked" HorizontalOptions="Center" Text="Create Forum"></Button>
+                    </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
@@ -48,7 +53,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                     <ListView.Footer>
-                        <Button x:Name="AddForumButton" Clicked="AddForumButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" Text="Create Forum"></Button>
+                        <Button x:Name="ReturnButton" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}" Clicked="ReturnButton_Clicked"  HorizontalOptions="Center" Text="Return"></Button>
                         
                     </ListView.Footer>
                 </ListView>

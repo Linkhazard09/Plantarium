@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Plantarium.Feedback"
              Title="Feedback"
+             NavigationPage.HasBackButton="False"
              >
     <ContentPage.Content>
         <ScrollView>
@@ -59,7 +60,8 @@
                 </ListView.ItemTemplate>
                     <ListView.Footer>
                         <StackLayout Orientation="Horizontal" >
-                            <Button x:Name="AddFeedbackButton"  HorizontalOptions="Center" Padding="20,0" VerticalOptions="End" Clicked="Button_Clicked" Text="Add Feedback" CornerRadius="10" BackgroundColor="Green" TextColor="WhiteSmoke" ></Button>
+                            <Button x:Name="AddFeedbackButton" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}"  HorizontalOptions="Center" Padding="20,0" VerticalOptions="End" Clicked="Button_Clicked" Text="Add Feedback"></Button>
+                            <Button x:Name="ReturnButton" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}" Clicked="ReturnButton_Clicked"  HorizontalOptions="Center" Text="Return"></Button>
                         </StackLayout>
 
                     </ListView.Footer>

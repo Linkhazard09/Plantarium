@@ -39,6 +39,8 @@ namespace Plantarium
             GetForum = new List<Forums>();
             foreach(string s in UN)
             {
+                if (x == 10)
+                    break;
                 string y = DE[x].Substring(0, 10);
                 GetForum.Add(new Forums { Username = UN[x], Headline = HL[x], Date = y, Time = TE[x] }   );
                 x++;
@@ -82,6 +84,11 @@ namespace Plantarium
         private async void AddForumButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AddForum(Username));
+        }
+
+        private async void ReturnButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage(Username));
         }
     }
 }

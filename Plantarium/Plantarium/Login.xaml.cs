@@ -33,7 +33,7 @@ namespace Plantarium
                 await Navigation.PushAsync(new MainPage(Username));
             }
            else
-              await DisplayAlert("Incorrect", "Account does not exist", "OK");
+              await DisplayAlert("Incorrect", "Please recheck your Username and Password", "OK");
 
 
         }

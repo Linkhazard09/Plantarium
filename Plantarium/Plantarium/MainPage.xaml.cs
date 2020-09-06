@@ -44,6 +44,9 @@ namespace Plantarium
                 case "Notifications":
                     await Navigation.PushAsync(new Notifications());
                     break;
+                case "Settings":
+                    await Navigation.PushAsync(new Settings());
+                    break;
 
 
 

@@ -71,7 +71,8 @@ namespace Plantarium
             if (SecondDifference < 0)
                 SecondDifference = -1 * SecondDifference;
            
-            CrossLocalNotifications.Current.Show("Your Notification!", NotificationTitleEntry.Text, 101, DateTime.Now.AddSeconds(SecondDifference).AddHours(HourDifference).AddMinutes(MinuteDifference).AddDays(DayDifference));
+            CrossLocalNotifications.Current.Show("Plantarium", NotificationTitleEntry.Text, 101, DateTime.Now.AddSeconds(0).AddHours(HourDifference).AddMinutes(MinuteDifference).AddDays(DayDifference));
+            await DisplayAlert("Plantarium", "Notification Set!", "OK");
         }
     }
 }

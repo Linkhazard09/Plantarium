@@ -106,5 +106,13 @@ namespace Plantarium
 
 
         }
+
+        private async void ReturnButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage(Username));
+        }
+
+
+
     }
 }

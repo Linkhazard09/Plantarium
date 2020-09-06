@@ -3,17 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Plantarium.Guides"
              Title="Guides"
+             BackgroundColor="{DynamicResource AppBackgroundColor}"
+               NavigationPage.HasBackButton="False"
              >
     <ContentPage.Content>
         <ScrollView>
         <StackLayout>
 
-            <ListView x:Name="GuideListView" HasUnevenRows="True" ItemsSource="{Binding PlantGuide}" ItemTapped="OnListViewItemTapped" >
+            <ListView x:Name="GuideListView" HasUnevenRows="True" ItemsSource="{Binding PlantGuide}" BackgroundColor="{DynamicResource AppBackgroundColor}" ItemTapped="OnListViewItemTapped" >
                     <ListView.Header>
                         <StackLayout Orientation="Horizontal">
-                            <Picker x:Name="PlantNamePicker" Title="Plant Type" WidthRequest="200" HorizontalOptions="Start" FontSize="15" ></Picker>
-                            <Button x:Name="FilterButton" Text="Filter" Clicked="FilterButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White" ></Button>
-                            <Button  x:Name="ResetButton" Text="Reset" Clicked="ResetButton_Clicked" CornerRadius="10" BackgroundColor="Green" TextColor="White"></Button>
+                            <Picker x:Name="PlantNamePicker" TextColor="{DynamicResource AppLabelColor}" Title="Plant Type" WidthRequest="200" HorizontalOptions="Start" FontSize="15" ></Picker>
+                            <Button x:Name="FilterButton" Text="Filter" Clicked="FilterButton_Clicked" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}"></Button>
+                            <Button  x:Name="ResetButton" Text="Reset" Clicked="ResetButton_Clicked" CornerRadius="10" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}"></Button>
                         </StackLayout>
                     </ListView.Header>
                     <ListView.ItemTemplate>
@@ -30,11 +32,13 @@
                                 </Grid.ColumnDefinitions>
                                
                                     <Label Grid.Column="1"
+                                           TextColor="{DynamicResource AppLabelColor}"
                                        Text="{Binding Guide_Name}"
                                        FontAttributes="Bold" />
                                 
                                 <Label Grid.Row="1"
                                        Grid.Column="1"
+                                          TextColor="{DynamicResource AppLabelColor}"
                                        Text="{Binding Plant_Name}"
                                        VerticalOptions="End" />
                                
@@ -45,8 +49,11 @@
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
+                    <ListView.Footer>
+                        <Button x:Name="ReturnButton" BackgroundColor="{DynamicResource AppButtonColor}" TextColor="{DynamicResource AppButtonTextColor}" Clicked="ReturnButton_Clicked"  HorizontalOptions="Center" Text="Return"></Button>
+
+                    </ListView.Footer>
             </ListView>
-            
             
             
             </StackLayout>

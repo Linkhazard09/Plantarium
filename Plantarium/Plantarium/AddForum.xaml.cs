@@ -117,7 +117,10 @@ namespace Plantarium
 
             }
             await DisplayAlert("Forum", "Forum Created!", "OK");
+            HeadlineEntry.Text = "";
+            ForumContentEditor.Text = "";
             await Navigation.PushAsync(new Forum(User));
+
 
         }
 

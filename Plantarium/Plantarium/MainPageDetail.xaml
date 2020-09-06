@@ -5,21 +5,23 @@
              xmlns:controls="clr-namespace:Plantarium"
              Title="Main Menu"
              NavigationPage.HasBackButton="False"
+             
+              BackgroundColor="{DynamicResource AppBackgroundColor}"
               >
     <Grid Padding="15,15">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Grid.Row="1"  Text="Welcome to Plantarium!" FontSize="25" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Start"/>
-        <Label  Grid.Row="2" Text="Your number 1 forum for plant related matters!" FontSize="20"  HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+        <Label Grid.Row="1"  Text="Welcome to Plantarium!" TextColor="{DynamicResource AppLabelColor}" FontSize="25" FontAttributes="Bold"  HorizontalOptions="Center" VerticalOptions="Start"/>
+        <Label  Grid.Row="2" Text="Your number 1 forum for plant related matters!" TextColor="{DynamicResource AppLabelColor}" FontSize="20"  HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
         <StackLayout Grid.Row="3" Orientation="Vertical">
-        <Label   Text="Rules:" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
-        <Label   Text="-Only Plant Related Matters are to Be Posted in the Forums" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
-        <Label   Text="-No Toxic Comments/Posts, Please Respect Each Other" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
-        <Label   Text="-Ensure people have predictable experiences on Plantarium by properly labeling your forums and ensuring that your question is legitimate." FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
-        <Label   Text="-You don't have to use your real name to use Plantarium, but don't impersonate an individual or an entity in a misleading or deceptive manner." FontSize="15" FontAttributes="Bold" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
-        <Label   Text="-Don't break the server or do anything that interferes with normal use of Plantarium." FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="Rules:" FontSize="15" FontAttributes="Bold" TextColor="{DynamicResource AppLabelColor}" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="Only Plant Related Matters are to Be Posted in the Forums" TextColor="{DynamicResource AppLabelColor}" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="No Toxic Comments/Posts, Please Respect Each Other" TextColor="{DynamicResource AppLabelColor}" FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="Ensure people have predictable experiences on Plantarium by properly labeling your forums and ensuring that your question is legitimate." FontSize="15" FontAttributes="Bold" TextColor="{DynamicResource AppLabelColor}" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="You don't have to use your real name to use Plantarium, but don't impersonate an individual or an entity in a misleading or deceptive manner." FontSize="15" FontAttributes="Bold" TextColor="{DynamicResource AppLabelColor}" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Start"/>
+            <Label   Text="Don't break the server or do anything that interferes with normal use of Plantarium." FontSize="15" FontAttributes="Bold" HorizontalOptions="Start" HorizontalTextAlignment="Center" TextColor="{DynamicResource AppLabelColor}" VerticalOptions="Start"/>
         </StackLayout>
 
 

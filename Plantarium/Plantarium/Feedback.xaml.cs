@@ -40,6 +40,7 @@ namespace Plantarium
             TE = BB.ToList();
             RT = DD.ToList();
             x = UN.Count()-1;
+           
             AllFeedbacks = new List<Feedbacks>();
             foreach(string s in UN)
             {
@@ -47,7 +48,7 @@ namespace Plantarium
                 string y = DE[x].Substring(0, 10);
                 AllFeedbacks.Add(new Feedbacks { Username = UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
                     x--;
-
+                     
             }
 
             BindingContext = this;
@@ -85,6 +86,9 @@ namespace Plantarium
 
         }
 
-        
+        private async void ReturnButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage(Username));
+        }
     }
 }

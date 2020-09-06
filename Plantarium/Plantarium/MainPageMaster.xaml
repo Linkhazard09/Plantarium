@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Plantarium.MainPageMaster"
-             Title="Master">
+             Title="Master" 
+             BackgroundColor="{DynamicResource AppBackgroundColor}"
+             >
   <StackLayout>
     <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
@@ -22,7 +24,7 @@
             <RowDefinition Height="20"/>
           </Grid.RowDefinitions>
                     <Image VerticalOptions="Center"  
-                   Source="PlantariumLogo" WidthRequest="70" HeightRequest="70"
+                   Source="PlantariumLogo" WidthRequest="100" HeightRequest="100"
                           Grid.Column="1"
               Grid.Row="2"/>
                  

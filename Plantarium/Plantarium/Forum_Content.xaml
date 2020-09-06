@@ -36,10 +36,10 @@
                 <Label x:Name="ForumContent_Label"  TextColor="Black" FontSize="15" HorizontalOptions="Start" VerticalOptions="Center" Padding="15,50,10,0" >
                 </Label>
 
-                <Frame CornerRadius="10" Padding="5"   IsClippedToBounds="True" HasShadow="True" BorderColor="Black">
+                <Frame>
                     <Image HorizontalOptions="Center"  Aspect="AspectFill" HeightRequest="100" WidthRequest="80" x:Name="ForumImage"></Image>
                 </Frame>
-                <Button x:Name="ViewCommentsButton" Padding="10,10" Text="View Comments" CornerRadius="10" BackgroundColor="Green" VerticalOptions="EndAndExpand" TextColor="White" HorizontalOptions="CenterAndExpand" Clicked="ViewCommentsButton_Clicked"  ></Button>
+                <Button x:Name="ViewCommentsButton" Padding="10,10" Text="View Comments" VerticalOptions="EndAndExpand"  HorizontalOptions="CenterAndExpand" Clicked="ViewCommentsButton_Clicked"  ></Button>
 
 
             </StackLayout>

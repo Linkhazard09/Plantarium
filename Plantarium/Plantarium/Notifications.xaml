@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Plantarium.Notifications">
+             x:Class="Plantarium.Notifications"
+             BackgroundColor="{DynamicResource AppBackgroundColor}"
+             >
     <ContentPage.Content>
         <StackLayout>
             <Frame  Padding="5" CornerRadius="10" IsClippedToBounds="True" HasShadow="True" BorderColor="Black">
@@ -16,14 +18,14 @@
                     <ColumnDefinition Width="Auto"></ColumnDefinition>
                     <ColumnDefinition Width="Auto"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Label Grid.Row="1" Grid.Column="1" HorizontalOptions="Start" FontSize="15" TextColor="Black" FontAttributes="Bold" Text="Notification Date" ></Label>
-                <DatePicker Grid.Row="1" Grid.Column="2" x:Name="NotificationDate" HorizontalOptions="End" FontSize="15" FontAttributes="Bold" TextColor="Black"></DatePicker>
-                <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" FontSize="15" TextColor="Black" FontAttributes="Bold" Text="Notification Time" ></Label>
-                <TimePicker Grid.Row="2" Grid.Column="2" x:Name="NotificationTime" HorizontalOptions="End" FontSize="15" FontAttributes="Bold" TextColor="Black"></TimePicker>
+                <Label Grid.Row="1" Grid.Column="1" TextColor="{DynamicResource AppLabelColor}"  HorizontalOptions="Start" FontSize="15"  FontAttributes="Bold" Text="Notification Date" ></Label>
+                <DatePicker Grid.Row="1" Grid.Column="2" x:Name="NotificationDate" HorizontalOptions="End" FontSize="15" FontAttributes="Bold" TextColor="{DynamicResource AppLabelColor}"></DatePicker>
+                <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" FontSize="15" TextColor="{DynamicResource AppLabelColor}" FontAttributes="Bold" Text="Notification Time" ></Label>
+                <TimePicker Grid.Row="2" Grid.Column="2" x:Name="NotificationTime" HorizontalOptions="End" FontSize="15" FontAttributes="Bold" TextColor="{DynamicResource AppLabelColor}"></TimePicker>
                 
 
             </Grid>
-            <Button x:Name="SubmitButton" HorizontalOptions="Center"  CornerRadius="10" BackgroundColor="Green" TextColor="WhiteSmoke" Clicked="SubmitButton_Clicked" Text="Schedule Notification" VerticalOptions="End"></Button>
+            <Button x:Name="SubmitButton" HorizontalOptions="Center"  Clicked="SubmitButton_Clicked" Text="Schedule Notification" VerticalOptions="End"></Button>
            
             
             
