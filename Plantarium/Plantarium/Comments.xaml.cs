@@ -23,34 +23,9 @@ namespace Plantarium
             this.User = User;
             this.Headline = Headline;
             this.Poster = Poster;
-            List<string> CP = new List<string>();
-            List<string> CC = new List<string>();
-            List<string> DE = new List<string>();
-            List<string> TE = new List<string>();
-            string[] AA; //Date
-            string[] BB; //Comment_Content
-            string[] ZZ; //Time
-            int x = 0;
-            GetComments = new List<ForumComments>();
-            Service1Client srvc = new Service1Client();
-            CP = srvc.GetComments(Headline, Poster, out AA, out ZZ, out BB).ToList();
-            CC = BB.ToList();
-            DE = AA.ToList();
-            TE = ZZ.ToList();
-
-           
-            foreach(string s in CP)
-            {
-                string y = DE[x].Substring(0, 10);
-                GetComments.Add(new ForumComments { CommentPoster = CP[x], Comment_Content = CC[x], Date = y, Time = TE[x] });
-                x++;
-
-
-
-
-            }
-
-
+            Task taskA = Task.Run(() => PopulateListView());
+            taskA.Wait();
+            CommentListView.ItemsSource = GetComments;
             BindingContext = this;
 
 
@@ -89,11 +64,21 @@ namespace Plantarium
                 return;
             }
 
-
-
             srvc.InsertComment(Poster, User, Headline, AddCommentEntry.Text, Date, Time);
             await DisplayAlert("Success", "Comment Added!", "OK");
 
+            Task taskA = Task.Run(() => PopulateListView());
+            taskA.Wait();
+            CommentListView.ItemsSource = GetComments;
+            AddCommentEntry.Text = null;
+
+
+
+
+        }
+
+        private void PopulateListView()
+        {
             List<string> CP = new List<string>();
             List<string> CC = new List<string>();
             List<string> DE = new List<string>();
@@ -103,7 +88,7 @@ namespace Plantarium
             string[] ZZ; //Time
             int x = 0;
             GetComments = new List<ForumComments>();
-
+            Service1Client srvc = new Service1Client();
             CP = srvc.GetComments(Headline, Poster, out AA, out ZZ, out BB).ToList();
             CC = BB.ToList();
             DE = AA.ToList();
@@ -121,12 +106,17 @@ namespace Plantarium
 
             }
 
-            CommentListView.ItemsSource = GetComments;
-            AddCommentEntry.Text = null;
+
+
+
+
+
 
 
 
 
         }
+
+
     }
 }

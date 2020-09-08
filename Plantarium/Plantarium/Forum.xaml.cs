@@ -19,34 +19,12 @@ namespace Plantarium
         {
             InitializeComponent();
             this.Username = Username;
-            List<string> UN = new List<string>();
-            List<string> HL = new List<string>();
-            List<string> DE = new List<string>();
-            List<string> TE = new List<string>();
-            string[] AA; //Date
-            string[] BB; //Headline
-            string[] CC; //Time
+            Task taskA = Task.Run(() => PopulateListView());
+            taskA.Wait();
 
-            int x = 0;
-            Service1Client srvc = new Service1Client();
-            UN = srvc.GetForumsAll(out AA,out BB,out CC).ToList() ;
-            HL = BB.ToList();
-            DE = AA.ToList();
-            TE = CC.ToList();
-            x = 0;
-           
-
-            GetForum = new List<Forums>();
-            foreach(string s in UN)
-            {
-                if (x == 10)
-                    break;
-                string y = DE[x].Substring(0, 10);
-                GetForum.Add(new Forums { Username = UN[x], Headline = HL[x], Date = y, Time = TE[x] }   );
-                x++;
-            }
-
+            // PopulateListView();
             BindingContext = this;
+           
 
         }
 
@@ -90,5 +68,39 @@ namespace Plantarium
         {
             await Navigation.PushAsync(new MainPage(Username));
         }
+
+        private void PopulateListView()
+        {
+           
+            List<string> UN = new List<string>();
+            List<string> HL = new List<string>();
+            List<string> DE = new List<string>();
+            List<string> TE = new List<string>();
+            string[] AA; //Date
+            string[] BB; //Headline
+            string[] CC; //Time
+
+
+
+
+            int x = 0;
+            Service1Client srvc = new Service1Client();
+            UN = srvc.GetForumsAll(out AA, out BB, out CC).ToList();
+            HL = BB.ToList();
+            DE = AA.ToList();
+            TE = CC.ToList();
+            x = 0;
+            GetForum = new List<Forums>();
+            foreach (string s in UN)
+            {
+                if (x == 10)
+                    break;
+                string y = DE[x].Substring(0, 10);
+                GetForum.Add(new Forums { Username = UN[x], Headline = HL[x], Date = y, Time = TE[x] });
+                x++;
+            }
+
+        }
+
     }
 }

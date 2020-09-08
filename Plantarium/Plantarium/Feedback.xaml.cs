@@ -23,34 +23,9 @@ namespace Plantarium
             this.Guide_Name = Guide_Name;
             this.Plant_Name = Plant_Name;
             InitializeComponent();
-            List<string> UN = new List<string>();
-            List<string> FC = new List<string>();
-            List<string> DE = new List<string>();
-            List<string> TE = new List<string>();
-            List<string> RT = new List<string>();
-            string[] AA;
-            string[] BB;
-            string[] CC;
-            string[] DD;
-            int x = 0;
-            Service1Client srvc = new Service1Client();
-            UN = srvc.GetFeedbacks(Guide_Name,Plant_Name,out AA,out BB, out CC,out DD).ToList();
-            FC = CC.ToList();
-            DE = AA.ToList();
-            TE = BB.ToList();
-            RT = DD.ToList();
-            x = UN.Count()-1;
-           
-            AllFeedbacks = new List<Feedbacks>();
-            foreach(string s in UN)
-            {
-
-                string y = DE[x].Substring(0, 10);
-                AllFeedbacks.Add(new Feedbacks { Username = UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
-                    x--;
-                     
-            }
-
+            Task taskA = Task.Run(() => PopulateListView());
+            taskA.Wait();
+            FeedbackListView.ItemsSource = AllFeedbacks;
             BindingContext = this;
 
          
@@ -90,5 +65,47 @@ namespace Plantarium
         {
             await Navigation.PushAsync(new MainPage(Username));
         }
+
+        private void PopulateListView()
+        {
+            List<string> UN = new List<string>();
+            List<string> FC = new List<string>();
+            List<string> DE = new List<string>();
+            List<string> TE = new List<string>();
+            List<string> RT = new List<string>();
+            string[] AA;
+            string[] BB;
+            string[] CC;
+            string[] DD;
+            int x = 0;
+            Service1Client srvc = new Service1Client();
+            UN = srvc.GetFeedbacks(Guide_Name, Plant_Name, out AA, out BB, out CC, out DD).ToList();
+            FC = CC.ToList();
+            DE = AA.ToList();
+            TE = BB.ToList();
+            RT = DD.ToList();
+            x = UN.Count() - 1;
+
+            AllFeedbacks = new List<Feedbacks>();
+            foreach (string s in UN)
+            {
+
+                string y = DE[x].Substring(0, 10);
+                AllFeedbacks.Add(new Feedbacks { Username = UN[x], Date = y, Time = TE[x], Rating = RT[x], Feedback_Content = FC[x] });
+                x--;
+
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
     }
 }
